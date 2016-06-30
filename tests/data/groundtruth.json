@@ -1,0 +1,360 @@
+{
+  "jsonlines": [
+    {
+      "text": "50$ss 70$hh",
+      "extraction": [50, 70]
+    },
+    {
+      "text": "Camila hh 120 strip",
+      "extraction": [120]
+    },
+    {
+      "text": "92535l4849.80/hh.150/hr.", #HERE# 92535l4849.
+      "extraction": [80, 150]
+    },
+    {
+      "text": "120 hh 220hr 2265670918",
+      "extraction": [120, 220]
+    },
+    {
+      "text": "?Incall? \nqk-?60 \nHh-?100 \n \n\n?Outcall?  \nqk-?120 \nHh-?160",  #HERE# qk?
+      "extraction": [60, 100, 120, 160]
+    },
+    {
+      "text": "50$ss 70$hh 248-818-3375", #HERE# ss
+      "extraction": [50, 70]
+    },
+    {
+      "text": "100/qs \n150/hh \n250/H",
+      "extraction": [100, 150, 250]
+    },
+    {
+      "text": "Madison 3163129511 \n \n120 hh  \n200 fh",
+      "extraction": [120, 200]
+    },
+    {
+      "text": "40$ss 65$hh 248-818-3375",
+      "extraction": [40, 65]
+    },
+    {
+      "text": "?100candies hh \n     Incall Special  \n          East Houston \n     Incall 150candies hh \n     Outcall 250candies hh \n        (Fri/Sat) By appt.  \n \n        21o 92o 4ARI \n                   4274",
+      "extraction": [100, 150, 250]   #HERE# 21o 92o
+    },
+    {
+      "text": "Avail now 120 hh 200 hr 7054174691",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    },
+    {
+      "text": "",
+      "extraction": []
+    }
+  ]
+}
