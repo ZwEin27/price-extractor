@@ -1,0 +1,1096 @@
+
+#########################
+### original ###
+50$ss 70$hh
+### clean ###
+['50$ss 70$hh']
+#########################
+### original ###
+Camila hh 120 strip
+### clean ###
+['camila hh 120 strip']
+#########################
+### original ###
+92535l4849.80/hh.150/hr.
+### clean ###
+['92535l48490hh150hr']
+#########################
+### original ###
+120 hh 220hr 2265670918
+### clean ###
+['120 hh 220hr 2265670918']
+#########################
+### original ###
+?Incall? 
+qk-?60 
+Hh-?100 
+ 
+
+?Outcall?  
+qk-?120 
+Hh-?160
+### clean ###
+['incall ', 'qk60 ', 'hh100 ', ' ', '', 'outcall  ', 'qk120 ', 'hh160']
+#########################
+### original ###
+50$ss 70$hh 248-818-3375
+### clean ###
+['50$ss 70$hh 2488183375']
+#########################
+### original ###
+100/qs 
+150/hh 
+250/H
+### clean ###
+['100qs ', '150hh ', '250h']
+#########################
+### original ###
+Madison 3163129511 
+ 
+120 hh  
+200 fh
+### clean ###
+['madison 3163129511 ', ' ', '120 hh  ', '200 fh']
+#########################
+### original ###
+40$ss 65$hh 248-818-3375
+### clean ###
+['40$ss 65$hh 2488183375']
+#########################
+### original ###
+?100candies hh 
+     Incall Special  
+          East Houston 
+     Incall 150candies hh 
+     Outcall 250candies hh 
+        (Fri/Sat) By appt.  
+ 
+        21o 92o 4ARI 
+                   4274
+### clean ###
+['100candies hh ', '     incall special  ', '          east houston ', '     incall 150candies hh ', '     outcall 250candies hh ', '        frisat by appt  ', ' ', '        21o 92o 4ari ', '                   4274']
+#########################
+### original ###
+Avail now 120 hh 200 hr 7054174691
+### clean ###
+['avail now 120 hh 200 hr 7054174691']
+#########################
+### original ###
+Weekend special 60 hh 100 hr
+### clean ###
+['weekend special 60 hh 100 hr']
+#########################
+### original ###
+Call me  
+150/hh 250/hr 
+6162642377
+### clean ###
+['call me  ', '150hh 250hr ', '6162642377']
+#########################
+### original ###
+Super tuesday special 120 hh 200h
+### clean ###
+['super tuesday special 120 hh 200h']
+#########################
+### original ###
+Sexy Cubanita (305)560.1133 $120 hh $160hour
+### clean ###
+['sexy cubanita 305560 $120 hh $160hour']
+#########################
+### original ###
+60'HH ? 
+INCALLS ? 
+Clean ? 
+ 
+? 7866631277 pinkyy???
+### clean ###
+['60hh  ', 'incalls  ', 'clean  ', ' ', ' 7866631277 pinkyy']
+#########################
+### original ###
+Early morning special hh 60 incall 3524261368
+### clean ###
+['early morning special hh 60 incall 3524261368']
+#########################
+### original ###
+jazz 
+ 
+3139797426 
+ 
+ 
+100 hh 
+ 
+150 h
+### clean ###
+['jazz ', ' ', '3139797426 ', ' ', ' ', '100 hh ', ' ', '150 h']
+#########################
+### original ###
+40$Ss 65$hh 248-818-3375
+### clean ###
+['40$ss 65$hh 2488183375']
+#########################
+### original ###
+248-818-3375 45$ss 65$hh
+### clean ###
+['2488183375 45$ss 65$hh']
+#########################
+### original ###
+Sexy Cubanita (305)560.1133 $120 hh $160hour
+### clean ###
+['sexy cubanita 305560 $120 hh $160hour']
+#########################
+### original ###
+150 hh
+250 hr
+Text 2176201204
+### clean ###
+['150 hh', '250 hr', 'text 2176201204']
+#########################
+### original ###
+Hh ss 347892737z e r o
+### clean ###
+['hh ss 347892737z e r o']
+#########################
+### original ###
+Madison 3163129511 
+ 
+120 hh  
+200 fh
+### clean ###
+['madison 3163129511 ', ' ', '120 hh  ', '200 fh']
+#########################
+### original ###
+6464393089lovely treat. 100ss. 150 hh 200 hr
+### clean ###
+['6464393089lovely treat 100ss 150 hh 200 hr']
+#########################
+### original ###
+5026194180
+Qv 80
+Hh 100
+Hr 140
+### clean ###
+['5026194180', 'qv 80', 'hh 100', 'hr 140']
+#########################
+### original ###
+?Incall? 
+Qk-?70 
+Hh-?95 
+H-?160 
+ 
+?Outcall?  
+qk-?120 
+Hh-?160 
+H-?200
+### clean ###
+['incall ', 'qk70 ', 'hh95 ', 'h160 ', ' ', 'outcall  ', 'qk120 ', 'hh160 ', 'h200']
+#########################
+### original ###
+Jasmine 
+Hf hr 120  
+Hr 150 
+6787699191
+### clean ###
+['jasmine ', 'hf hr 120  ', 'hr 150 ', '6787699191']
+#########################
+### original ###
+2543075506  
+80 half hr  
+120 full hr
+### clean ###
+['2543075506  ', '80 half hr  ', '120 full hr']
+#########################
+### original ###
+Hr 140 half 100
+### clean ###
+['hr 140 half 100']
+#########################
+### original ###
+Camila hr 95 strip
+### clean ###
+['camila hr 95 strip']
+#########################
+### original ###
+Hmu 100 hr 9038419603
+### clean ###
+['hmu 100 hr 9038419603']
+#########################
+### original ###
+Call LA LA 3134548167 
+60 half hr 
+100 hr
+### clean ###
+['call la la 3134548167 ', '60 half hr ', '100 hr']
+#########################
+### original ###
+55 half hr 
+100 hr 
+3134548167 ??la la??
+### clean ###
+['55 half hr ', '100 hr ', '3134548167 la la']
+#########################
+### original ###
+(7162792989) 
+HHR 100 HR 150
+### clean ###
+['7162792989 ', 'hhr 100 hr 150']
+#########################
+### original ###
+Karla hhr 130 hr 150
+### clean ###
+['karla hhr 130 hr 150']
+#########################
+### original ###
+Camila hr 95 strip sesions
+### clean ###
+['camila hr 95 strip sesions']
+#########################
+### original ###
+$300/hr  
+ 
+$250/hr before midday  
+ 
+$200 half hr 
+ 
+GFE 
+FACESITTING  
+SPANISH 
+RIMMING ON ME
+### clean ###
+['$300hr  ', ' ', '$250hr before midday  ', ' ', '$200 half hr ', ' ', 'gfe ', 'facesitting  ', 'spanish ', 'rimming on me']
+#########################
+### original ###
+Come explore your wild side with us! 
+Available as a couple or singularly.  
+ 
+(786) 671-1466
+ Antoniochase21@gmail.com 
+
+1 hr. $350.00 for both
+1 hr. $175.00 for male
+2 hr. $550.00 2 hr both
+2 hr. $250.00 2 hr male
+### clean ###
+['come explore your wild side with us ', 'available as a couple or singularly  ', ' ', '786 6711466', ' antoniochase21gmailcom ', '', '1 hr $350 for both', '1 hr $175 for male', '2 hr $550 2 hr both', '2 hr $250 2 hr male']
+#########################
+### original ###
+125/hhr 175/hr 312929729three Autumn
+### clean ###
+['125hhr 175hr 312929729three autumn']
+#########################
+### original ###
+Today avail 
+
+300 hr 
+
+(408) 337-2551
+### clean ###
+['today avail ', '', '300 hr ', '', '408 3372551']
+#########################
+### original ###
+Ask for photos 
+
+$250/hr 
+ 
+ prettyaricag@gmail.com
+### clean ###
+['ask for photos ', '', '$250hr ', ' ', ' prettyaricaggmailcom']
+#########################
+### original ###
+6464393089lovely treat. 100ss. 150 hh 200 hr
+### clean ###
+['6464393089lovely treat 100ss 150 hh 200 hr']
+#########################
+### original ###
+Bodywork $50/HR ($65/HR original) Table Shower & Body Scrub+Bodywork $60/HR (before 3pm) 4 Hands Special $99/HR(including free table shower) Call 212 206 0200
+### clean ###
+['bodywork $50hr $65hr original table shower  body scrubbodywork $60hr before 3pm 4 hands special $99hrincluding free table shower call 212 206 0200']
+#########################
+### original ###
+Carmeets 40 oral, 50 sex 
+Incalls 70 half hr. 120 hr, outcalls start at 140 per hr
+### clean ###
+['carmeets 40 oral 50 sex ', 'incalls 70 half hr 120 hr outcalls start at 140 per hr']
+#########################
+### original ###
+Karla , Sonja hhr 95 hr 160
+### clean ###
+['karla  sonja hhr 95 hr 160']
+#########################
+### original ###
+100 hh  
+160 hr  
+ 
+408.. 471. 3814
+### clean ###
+['100 hh  ', '160 hr  ', ' ', '408 471 3814']
+#########################
+### original ###
+30 min $120 Hr$140 
+ 
+4697678019
+### clean ###
+['30 min $120 hr$140 ', ' ', '4697678019']
+#########################
+### original ###
+100HALF HOUR special! 175/hr  312929729three  Autumn
+### clean ###
+['100half hour special 175hr  312929729three  autumn']
+#########################
+### original ###
+6464393089lovely treat. 100ss. 150 hh 200 hr
+### clean ###
+['6464393089lovely treat 100ss 150 hh 200 hr']
+#########################
+### original ###
+5026194180
+Qv 80
+Hh 100
+Hr 140
+### clean ###
+['5026194180', 'qv 80', 'hh 100', 'hr 140']
+#########################
+### original ###
+Beautiful, Exotic, Voluptuous (Incalls & Outcalls) 
+ 
+200/HR or 300/HR Flat 
+ 
+?Leila - 470-234-6203?
+### clean ###
+['beautiful exotic voluptuous incalls  outcalls ', ' ', '200hr or 300hr flat ', ' ', 'leila  4702346203']
+#########################
+### original ###
+Thanksgiving out call, blonde model 
+ 
+180 h hr 
+ 
+240 hr 
+ 
+858 337 0843
+### clean ###
+['thanksgiving out call blonde model ', ' ', '180 h hr ', ' ', '240 hr ', ' ', '858 337 0843']
+#########################
+### original ###
+Incall full service  
+120/hf
+200/hr
+Outcall:350/hr 
+Call me ??0406950770
+### clean ###
+['incall full service  ', '120hf', '200hr', 'outcall350hr ', 'call me 0406950770']
+#########################
+### original ###
+Sexy clean std free female escort  
+ 
+Incalls 
+75 half hr 125 hr 
+ 
+
+North houston
+
+Laurina 4192060160
+### clean ###
+['sexy clean std free female escort  ', ' ', 'incalls ', '75 half hr 125 hr ', ' ', '', 'north houston', '', 'laurina 4192060160']
+#########################
+### original ###
+MsToni 5179621317 
+ 
+ Hlf hr 50 
+ Full hr 100 
+ 
+Also two girls special
+### clean ###
+['mstoni 5179621317 ', ' ', ' hlf hr 50 ', ' full hr 100 ', ' ', 'also two girls special']
+#########################
+### original ###
+$300/hr after midday $250/hr before midday 
+ 
+Full Service  
+GFE 
+FACESITTING
+### clean ###
+['$300hr after midday $250hr before midday ', ' ', 'full service  ', 'gfe ', 'facesitting']
+#########################
+### original ###
+25 for 10 Min. 
+55 half hr 
+100 hr  
+CALL DONT TEXT BLU3134548167
+### clean ###
+['25 for 10 min ', '55 half hr ', '100 hr  ', 'call dont text blu3134548167']
+#########################
+### original ###
+216-374-1451<br>
+<br>
+15 min $50<br>
+Half hr $70<br>
+Full hr $100
+### clean ###
+['2163741451br', 'br', '15 min $50br', 'half hr $70br', 'full hr $100']
+#########################
+### original ###
+Incall  
+120/hf 
+200/hr 
+Outcall 
+350/hr 
+Call me:0426946822
+### clean ###
+['incall  ', '120hf ', '200hr ', 'outcall ', '350hr ', 'call me0426946822']
+#########################
+### original ###
+My service very good.?? 
+Incall:120/hf. 200/hr 
+Outcall :350/hr 
+Call me ??0426288618
+### clean ###
+['my service very good ', 'incall120hf 200hr ', 'outcall 350hr ', 'call me 0426288618']
+#########################
+### original ###
+?216-374-1451 
+ 
+?15 min $50 
+?Half hr $70 
+?Full hr $100
+### clean ###
+['2163741451 ', ' ', '15 min $50 ', 'half hr $70 ', 'full hr $100']
+#########################
+### original ###
+216-374-1451
+
+15 min $50
+Half hr $70
+Full hr $100
+### clean ###
+['2163741451', '', '15 min $50', 'half hr $70', 'full hr $100']
+#########################
+### original ###
+Incall full service  
+120/hf 
+200/hr 
+Outcall :250/hf 350/hr 
+Call me :0426946822
+### clean ###
+['incall full service  ', '120hf ', '200hr ', 'outcall 250hf 350hr ', 'call me 0426946822']
+#########################
+### original ###
+young girl looking for company 
+donations  
+half hr 100$ 
+hr 150 
+hosting 
+8565807693
+### clean ###
+['young girl looking for company ', 'donations  ', 'half hr 100$ ', 'hr 150 ', 'hosting ', '8565807693']
+#########################
+### original ###
+614-972-9624 75-hlf hr 100 hr questions in person- clean cut professional calls only
+### clean ###
+['6149729624 75hlf hr 100 hr questions in person clean cut professional calls only']
+#########################
+### original ###
+Call me baby I'm waiting on you 3134548167 
+ 
+25 ten minutes 
+60 half hr 
+100 hr
+### clean ###
+['call me baby im waiting on you 3134548167 ', ' ', '25 ten minutes ', '60 half hr ', '100 hr']
+#########################
+### original ###
+NEW CBD Sexy Beautiful fit body Naughty  150 half hr 250 hr Extras available
+### clean ###
+['new cbd sexy beautiful fit body naughty  150 half hr 250 hr extras available']
+#########################
+### original ###
+15 min $50 
+Half hr $70 
+Full hr $100 
+Call Or Text 248-277-5305
+### clean ###
+['15 min $50 ', 'half hr $70 ', 'full hr $100 ', 'call or text 2482775305']
+#########################
+### original ###
+216'374-1451 15 min $50 Half hr $70 Full hr $100.Call  216-374-1451 .
+### clean ###
+['2163741451 15 min $50 half hr $70 full hr $100call  2163741451 ']
+#########################
+### original ###
+100 half hour 
+150 hour
+### clean ###
+['100 half hour ', '150 hour']
+#########################
+### original ###
+60 half hour and 120 hour 0220436093
+### clean ###
+['60 half hour and 120 hour 0220436093']
+#########################
+### original ###
+1 hour 3000 
+2 hour 5000
+### clean ###
+['1 hour 3000 ', '2 hour 5000']
+#########################
+### original ###
+Per hour 3000 start
+### clean ###
+['per hour 3000 start']
+#########################
+### original ###
+1 HOUR 250 EURO
+### clean ###
+['1 hour 250 euro']
+#########################
+### original ###
+180euro 1 hour! ?????+????? ?????????? ????????? ??? ???!!! ?? ??? ????? ??? ?????????? ???????? ??? ??????!... 6986274039
+### clean ###
+['180euro 1 hour              6986274039']
+#########################
+### original ###
+Happy Hour 9048948750
+### clean ###
+['happy hour 9048948750']
+#########################
+### original ###
+4438235497 100hh 200 hour
+### clean ###
+['4438235497 100hh 200 hour']
+#########################
+### original ###
+9168720545 
+250/hour
+### clean ###
+['9168720545 ', '250hour']
+#########################
+### original ###
+4439738663 
+No outcalls  
+Half hour 100 
+Hour 150
+### clean ###
+['4439738663 ', 'no outcalls  ', 'half hour 100 ', 'hour 150']
+#########################
+### original ###
+80 half hour 120 hour nessage me xoxo 0220436093
+### clean ###
+['80 half hour 120 hour nessage me xoxo 0220436093']
+#########################
+### original ###
+100 half hour special 
+175 hour  
+312929729three 
+Autumn
+### clean ###
+['100 half hour special ', '175 hour  ', '312929729three ', 'autumn']
+#########################
+### original ###
+Work on per hour basis 
+50 nucks per hour
+### clean ###
+['work on per hour basis ', '50 nucks per hour']
+#########################
+### original ###
+Professional Asian massage 
+ 
+ 
+ 
+ 
+ 
+Half hour         $40 
+ 
+ 
+One hour.        $60
+### clean ###
+['professional asian massage ', ' ', ' ', ' ', ' ', ' ', 'half hour         $40 ', ' ', ' ', 'one hour        $60']
+#########################
+### original ###
+Top trans just for u :)  
+100 Half hour  
+150 hour
+### clean ###
+['top trans just for u   ', '100 half hour  ', '150 hour']
+#########################
+### original ###
+60 half hour
+115 hour 404-488-6429
+### clean ###
+['60 half hour', '115 hour 4044886429']
+#########################
+### original ###
+Alice 
+Incall/Outcall
+1 hour 3000
+2 hour 5000
+### clean ###
+['alice ', 'incalloutcall', '1 hour 3000', '2 hour 5000']
+#########################
+### original ###
+$80 for half hour or$200 for hour 5024071135
+### clean ###
+['$80 for half hour or$200 for hour 5024071135']
+#########################
+### original ###
+100 half hour special 
+175 hour  
+312929729three 
+Autumn
+### clean ###
+['100 half hour special ', '175 hour  ', '312929729three ', 'autumn']
+#########################
+### original ###
+60 half hour
+
+115 hour
+
+314-696-4676
+### clean ###
+['60 half hour', '', '115 hour', '', '3146964676']
+#########################
+### original ###
+443.973.8663 
+No outcalls 
+Half hour 100 
+Hour 150 
+Slight texting
+### clean ###
+['4433 ', 'no outcalls ', 'half hour 100 ', 'hour 150 ', 'slight texting']
+#########################
+### original ###
+443.973.8663 
+No outcalls 
+Half hour 100  
+Hour 150 . 
+Ext.
+### clean ###
+['4433 ', 'no outcalls ', 'half hour 100  ', 'hour 150  ', 'ext']
+#########################
+### original ###
+Asia  
+ 
+3137402252 
+ 
+incalls only 
+ 
+half hour 100$ 
+ 
+hour 150$
+### clean ###
+['asia  ', ' ', '3137402252 ', ' ', 'incalls only ', ' ', 'half hour 100$ ', ' ', 'hour 150$']
+#########################
+### original ###
+7132833419 
+Myapreggo 
+100hh roses 
+185h roses 
+Donations
+### clean ###
+['7132833419 ', 'myapreggo ', '100hh roses ', '185h roses ', 'donations']
+#########################
+### original ###
+Myapreggo 
+100hh roses 
+185h roses 
+?No A.A
+Donations mya 7132833419
+### clean ###
+['myapreggo ', '100hh roses ', '185h roses ', 'no aa', 'donations mya 7132833419']
+#########################
+### original ###
+Lmao 3618763539...roses for daizee
+### clean ###
+['lmao 3618763539roses for daizee']
+#########################
+### original ###
+Sayuri  
+619.356.0708  
+Short Stay 100 roses  
+Hhr 140 roses  
+Hr 240 roses
+### clean ###
+['sayuri  ', '6196  ', 'short stay 100 roses  ', 'hhr 140 roses  ', 'hr 240 roses']
+#########################
+### original ###
+Specials you get what you see 90 roses 100 roses 150 roses 8328743763 8328743763.Call  832-874-3763
+### clean ###
+['specials you get what you see 90 roses 100 roses 150 roses 8328743763 8328743763call  8328743763']
+#########################
+### original ###
+LILLY 
+
+Come visit me Incall 
+Qv 80 roses 
+30minutes  120 roses 
+Hourly  180 roses 
+
+Lets meet  OUTCALL 
+Hourly220
+  Lilli 909.999.3751
+### clean ###
+['lilly ', '', 'come visit me incall ', 'qv 80 roses ', '30minutes  120 roses ', 'hourly  180 roses ', '', 'lets meet  outcall ', 'hourly220', '  lilli 90991']
+#########################
+### original ###
+Sayuri 
+ 
+619-356-0708
+ 
+Well Reviewed
+ 
+1000% Real Deal 
+ 
+Short Stay 100 roses
+ 
+Hhr 140 roses
+ 
+Hr 240 roses
+### clean ###
+['sayuri ', ' ', '6193560708', ' ', 'well reviewed', ' ', '1000 real deal ', ' ', 'short stay 100 roses', ' ', 'hhr 140 roses', ' ', 'hr 240 roses']
+#########################
+### original ###
+Upscale  gentlemen - San Carlos  private discreet    100 roses--hh,   140 roses-45 min   $160 roses-hr   $240 roses-90 min     $300 roses -Deluxe Pkg- 2 hrs of Pampering;    Prostate Massage- $200 roses.  10am-7pm.  After hrs-7pm-12am   140 roses hh, 180 roses-45min, 200 roses hr, 300 roses 90 min, 350 roses  2 hrs   400/hr roses  .cocktail, shower,relaxation.  FBSM/ Hot towels/Hot Oil/Hot Stones/ Grown up time!   Showers/Cocktails/420 Friendly home setting.
+Angelina
+415-967-1438 
+text/call
+### clean ###
+['upscale  gentlemen  san carlos  private discreet    100 roseshh   140 roses45 min   $160 roseshr   $240 roses90 min     $300 roses deluxe pkg 2 hrs of pampering    prostate massage $200 roses  10am7pm  after hrs7pm12am   140 roses hh 180 roses45min 200 roses hr 300 roses 90 min 350 roses  2 hrs   400hr roses  cocktail showerrelaxation  fbsm hot towelshot oilhot stones grown up time   showerscocktails420 friendly home setting', 'angelina', '4159671438 ', 'textcall']
+#########################
+### original ###
+Doing specials TODAY only. 
+100 roses  - qv
+150 roses  - hh
+-----------------------------------------------
+
+Massage Specials (clean only) 
+70 roses  - hh
+120 roses  - h
+______________________________
+
+TEXTS ONLY.
+203-552-2903 
+
+
+xoxo Skye
+### clean ###
+['doing specials today only ', '100 roses   qv', '150 roses   hh', '', '', 'massage specials clean only ', '70 roses   hh', '120 roses   h', '', '', 'texts only', '2035522903 ', '', '', 'xoxo skye']
+#########################
+### original ###
+INCALL ONLY.  Special on SS and hummers 
+ 
+Hummer 60 ROSES 
+SS 80 ROSES 
+half 125 ROSES 
+ hour 200 ROSES 
+ 
+Jen 
+908 240 1844
+### clean ###
+['incall only  special on ss and hummers ', ' ', 'hummer 60 roses ', 'ss 80 roses ', 'half 125 roses ', ' hour 200 roses ', ' ', 'jen ', '908 240 1844']
+#########################
+### original ###
+New to town
+Name is Princess
+@9547072052
+No time wasters
+100$roses...30min.qv
+200$roses...1hour
+### clean ###
+['new to town', 'name is princess', '9547072052', 'no time wasters', '100$roses30minqv', '200$roses1hour']
+#########################
+### original ###
+Hey I'm candy looking for some fun  
+Hh one00 roses hr two0O roses 
+9723480664
+### clean ###
+['hey im candy looking for some fun  ', 'hh one00 roses hr two0o roses ', '9723480664']
+#########################
+### original ###
+No law enforcement
+In calls
+30 90 roses 
+Hh 180 roses
+8328743763
+### clean ###
+['no law enforcement', 'in calls', '30 90 roses ', 'hh 180 roses', '8328743763']
+#########################
+### original ###
+30 min- 150 roses, 100 hr- 200 roses, just for one girl. Txt us 3606383309Outcalls Only
+### clean ###
+['30 min 150 roses 100 hr 200 roses just for one girl txt us 3606383309outcalls only']
+#########################
+### original ###
+No law enforcement In calls 30 90 roses  Hh 180 roses 8328743763.Call  832-874-3763 .
+### clean ###
+['no law enforcement in calls 30 90 roses  hh 180 roses 8328743763call  8328743763 ']
+#########################
+### original ###
+60 roses / 15mins or less 
+
+100 roses /hhr or less 
+
+
+
+Call me Malia
+520-286-1821
+### clean ###
+['60 roses  15mins or less ', '', '100 roses hhr or less ', '', '', '', 'call me malia', '5202861821']
+#########################
+### original ###
+Hey baby call me 305?7311860 
+100 roses 30 min 
+150 roses full hour
+### clean ###
+['hey baby call me 3057311860 ', '100 roses 30 min ', '150 roses full hour']
+#########################
+### original ###
+No AA 180 ROSES 200 ROSES YOY GET WHAT YOU SEE  8328743763.Call  832-874-3763 .
+### clean ###
+['no aa 180 roses 200 roses yoy get what you see  8328743763call  8328743763 ']
+#########################
+### original ###
+In call only. Tall 6'2 black Guy, NO GUYS NO GUYS 5154477834 big room with lots of space 50 roses 15min 65 roses /25min  80 roses/30min  120 roses/45min 150 roses hr.Call  515-447-7810 .
+### clean ###
+['in call only tall 62 black guy no guys no guys 5154477834 big room with lots of space 50 roses 15min 65 roses 25min  80 roses30min  120 roses45min 150 roses hrcall  5154477810 ']
+#########################
+### original ###
+You'll never know until you try it... Beautifully seductive and flirtatiousmagicalQueen. 5'3 135lbsofchocolateBliss.Outcalls ONLY.100% ALL NATURAL.60 roses/15mins
+85 roses/30mins 
+140 roses/45mins
+200 roses/hrPrivateDances 35 roses/3songsNova 5615773322
+### clean ###
+['youll never know until you try it beautifully seductive and flirtatiousmagicalqueen 53 135lbsofchocolateblissoutcalls only100 all natural60 roses15mins', '85 roses30mins ', '140 roses45mins', '200 roseshrprivatedances 35 roses3songsnova 5615773322']
+#########################
+### original ###
+Gorgeous flirtatious funsize seductive Queen. 5'3 135lbs of chocolate heaven 
+I'm everything you need and more100% ALLNATURAL.
+No negotiations.
+Everythingupfront.
+Outcalls ONLY60 roses/15mins
+85 roses/30mins 
+130 roses/45mins
+200 roses/hr5615773322
+PrivateDances35 roses/3songs
+### clean ###
+['gorgeous flirtatious funsize seductive queen 53 135lbs of chocolate heaven ', 'im everything you need and more100 allnatural', 'no negotiations', 'everythingupfront', 'outcalls only60 roses15mins', '85 roses30mins ', '130 roses45mins', '200 roseshr5615773322', 'privatedances35 roses3songs']
+#########################
+### original ###
+In call only. Tall 6'2 black Guy,NO GUYS
+NO GUYS
+5154477834
+big room with lots of space
+50 roses 15min
+65 roses /25min 
+80 roses/30min 
+120 roses/45min
+150 roses hr
+### clean ###
+['in call only tall 62 black guyno guys', 'no guys', '5154477834', 'big room with lots of space', '50 roses 15min', '65 roses 25min ', '80 roses30min ', '120 roses45min', '150 roses hr']
+#########################
+### original ###
+100 Roses for 1/2 Hour - 200 Roses for 1 hour - 75 Roses for 20 minutes or less
+### clean ###
+['100 roses for 12 hour  200 roses for 1 hour  75 roses for 20 minutes or less']
+#########################
+### original ###
+15 Minutes - 60 Roses 30 Minutes - 100 Roses 1 Hour - 150 Roses Call Me  512-210-0088 512-210-0088 IM WAITING FOR YOUR CALL.Call  512-210-0088 .
+### clean ###
+['15 minutes  60 roses 30 minutes  100 roses 1 hour  150 roses call me  5122100088 5122100088 im waiting for your callcall  5122100088 ']
+#########################
+### original ###
+Specials you get what you see
+90 roses
+100 roses
+150 roses
+8328743763
+8328743763. See my menu of services on my profile BEFORE CALLING...  Adult Finder
+### clean ###
+['specials you get what you see', '90 roses', '100 roses', '150 roses', '8328743763', '8328743763 see my menu of services on my profile before calling  adult finder']
+#########################
+### original ###
+Come spend some time with the one and only Alaina
+Qv-60 roses
+Hhr-100 roses
+Hr-140 roses
+
+9125396969
+Alaina
+### clean ###
+['come spend some time with the one and only alaina', 'qv60 roses', 'hhr100 roses', 'hr140 roses', '', '9125396969', 'alaina']
+#########################
+### original ###
+Come spend some time with the one and only Alaina  Qv-60 roses  Hhr-100 roses  Hr-140 roses  9125396969  Alaina.Call  912-539-6969
+### clean ###
+['come spend some time with the one and only alaina  qv60 roses  hhr100 roses  hr140 roses  9125396969  alainacall  9125396969']
+#########################
+### original ###
+15 min 75 roses 
+30 min 95 roses 
+1 hour 120 roses 
+   Pics 100% REAL 
+ PLEASE READ AD FIRST 
+Ask for kandy: 
+2145147744
+### clean ###
+['15 min 75 roses \r', '30 min 95 roses \r', '1 hour 120 roses \r', '   pics 100 real \r', ' please read ad first \r', 'ask for kandy \r', '2145147744']
+#########################
+### original ###
+Good morning I'm doing incalls only gentleman I'm quick 60 roses ?Hhr 80 roses ?Hour 120 roses unrushed and f.service provided nonnegotiable donations  614-563-3342
+### clean ###
+['good morning im doing incalls only gentleman im quick 60 roses hhr 80 roses hour 120 roses unrushed and fservice provided nonnegotiable donations  6145633342']
+#########################
+### original ###
+I'm slim carmel looking for fun and plesure q.v. 80 roses. Donation half hour 130 roses 1hour 200 roses in calls text only 9048859321
+### clean ###
+['im slim carmel looking for fun and plesure qv 80 roses donation half hour 130 roses 1hour 200 roses in calls text only 9048859321']
+#########################
+### original ###
+Milk Chocolate RemyCOME GET A TASTE4/20 FRIENDLY; Very DISCREET. Special- SS80 ROSES HH120 ROSES HR160 ROSES . AVAILABLE Now Call @202-351-1606
+### clean ###
+['milk chocolate remycome get a taste420 friendly very discreet special ss80 roses hh120 roses hr160 roses  available now call 2023511606']
+#########################
+### original ###
+LILLY  Come visit me  Incall  Qv 80 roses  30minutes 120 roses  Hourly 180 roses  Lets meet  OUTCALL  Hourly200  Lilli 909.999.3751 .Call  909-999-3751 .
+### clean ###
+['lilly  come visit me  incall  qv 80 roses  30minutes 120 roses  hourly 180 roses  lets meet  outcall  hourly200  lilli 9099 call  9099993751 ']
+#########################
+### original ###
+NO LAW ENFORCEMENT 
+NO BLACK MEN UNDER 35. OUTCALLS ONLY. QV/80 Roses
+HH/100 Roses
+Hr/160 Roses
+865-224-3703
+
+Lala
+### clean ###
+['no law enforcement ', 'no black men under 35 outcalls only qv80 roses', 'hh100 roses', 'hr160 roses', '8652243703', '', 'lala']
+#########################
+### original ###
+Come spend some time with the one and only Alaina Qv-60 roses Hhr-100 roses Hr-140 roses 9125396969 Alaina.Call  912-539-6969 .
+### clean ###
+['come spend some time with the one and only alaina qv60 roses hhr100 roses hr140 roses 9125396969 alainacall  9125396969 ']
+#########################
+### original ###
+Lmao 3618763539...roses for daizee.Call  361-876-3539 .
+### clean ###
+['lmao 3618763539roses for daizeecall  3618763539 ']
+#########################
+### original ###
+Doing specials TODAY only.  100 roses - qv 150 roses - hh ----- Massage Specials (clean only)  70 roses - hh 120 roses - h ___ TEXTS ONLY. 203-552-2903  xoxo Skye .Call  203-552-2903 .
+### clean ###
+['doing specials today only  100 roses  qv 150 roses  hh  massage specials clean only  70 roses  hh 120 roses  h  texts only 2035522903  xoxo skye call  2035522903 ']
+#########################
+### original ###
+Hello ! 
+ 
+My web-site:  http://www.elite-motions.biz  
+Messages only: +1 857 312 9323 
+ 
+I would be grateful for your gifts:  
+30 min - 150 roses* 
+1 hour - 250 roses* 
+2 hours - 400 roses* 
+Overnight - 1000 roses* 
+ 
+Looking forward to you, 
+Angelique
+### clean ###
+['hello  ', ' ', 'my website  httpwwwelitemotionsbiz  ', 'messages only 1 857 312 9323 ', ' ', 'i would be grateful for your gifts  ', '30 min  150 roses ', '1 hour  250 roses ', '2 hours  400 roses ', 'overnight  1000 roses ', ' ', 'looking forward to you ', 'angelique']
+#########################
+### original ###
+Roses. Roses. Roses. Come pick ur fresh roses. Lola is waiting on ur call. 45+ gentlemen safe inbound no texting 7579983087.  We are on Adult Finder  soooo you can find us all on there if you want... sticky_dolce
+### clean ###
+['roses roses roses come pick ur fresh roses lola is waiting on ur call 45 gentlemen safe inbound no texting 7579983087  we are on adult finder  soooo you can find us all on there if you want stickydolce']
+#########################
+### original ###
+call me out call $pecial$ 100 roses 4696509465
+### clean ###
+['call me out call $pecial$ 100 roses 4696509465']
+#########################
+### original ###
+Donation $150hr $100 $60 qv
+### clean ###
+['donation $150hr $100 $60 qv']
+#########################
+### original ###
+$#9372451974#$  DONATION RATES: $100  5'9/160lb/36C
+### clean ###
+['$9372451974$  donation rates $100  59160lb36c']
+#########################
+### original ###
+?5862226931? SeRiouS?CaLLeRS?oNLy ??????DoNaTioN$?????? 
+{?SS40?}{?HH60?} 
+ {SS50?}{HH80?}{HR140?} ??????DONaTioN$???????PreTTy?FuN? 
+?FeTiSH ? FRieNDLy?
+### clean ###
+['5862226931 seriouscallersonly donation$ ', 'ss40hh60 ', ' ss50hh80hr140 donation$prettyfun ', 'fetish  friendly']
+#########################
+### original ###
+TS Halle 813 422 4735 
+ www.tshalleraven.tumblr.com  
+bodyrubs 100 donation
+### clean ###
+['ts halle 813 422 4735 ', ' wwwtshalleraventumblrcom  ', 'bodyrubs 100 donation']
+#########################
+### original ###
+Donation 80 outcalls tonight only 5204093657.Call  520-409-3657 .
+### clean ###
+['donation 80 outcalls tonight only 5204093657call  5204093657 ']
+#########################
+### original ###
+??SPECIAL DONATION 60HH ??call me Eli  719-963-9480
+### clean ###
+['special donation 60hh call me eli  7199639480']
+#########################
+### original ###
+????FiveStarExperience? 
+ 
+   Incall donation 
+15min50?20mins60?hhr80?hr120?
+8327911957 Lola
+### clean ###
+['fivestarexperience ', ' ', '   incall donation ', '15min5020mins60hhr80hr120', '8327911957 lola']
+#########################
+### original ###
+##9372048889## 100 Donation Available 24/7.Call  937-204-8889 .
+### clean ###
+['9372048889 100 donation available 247call  9372048889 ']
+#########################
+### original ###
+$#9373495059#$  DONATION RATES: 120Incall/140Outcall  5'9/160lb/36C
+### clean ###
+['$9373495059$  donation rates 120incall140outcall  59160lb36c']
+#########################
+### original ###
+25 Rose Donation For Qv Hmu ASAP?? 
+254-727-2981
+### clean ###
+['25 rose donation for qv hmu asap ', '2547272981']
+#########################
+### original ###
+OUTCALLS ONLY 
+
+No endless texting 
+
+2 girl special $300 donation 
+
+130hh / 230h donation
+
+NO BLACK MEN 
+
+814 4993826
+### clean ###
+['outcalls only ', '', 'no endless texting ', '', '2 girl special $300 donation ', '', '130hh  230h donation', '', 'no black men ', '', '814 4993826']
+#########################
+### original ###
+Young, sweet n fun 23 year old Middle Eastern besuty in Orange! 
+ 
+200 roses donation for HR! 
+100 roses donation for HH! 
+70 roses donation fot QQ! 
+ 
+818 450-9953
+### clean ###
+['young sweet n fun 23 year old middle eastern besuty in orange ', ' ', '200 roses donation for hr ', '100 roses donation for hh ', '70 roses donation fot qq ', ' ', '818 4509953']
+#########################
+### original ###
+Tired of the C*nt games the girls that complain?   well im not leaving until your sleeping in a c*m stain .  incalls $160.00 hh donation $260.00 hour donation outcalls start at $280.00 Donation CAT * {409}460-8923
+### clean ###
+['tired of the cnt games the girls that complain   well im not leaving until your sleeping in a cm stain   incalls $160 hh donation $260 hour donation outcalls start at $280 donation cat  4094608923']
