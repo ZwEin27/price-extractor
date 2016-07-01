@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 15:05:04
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-01 13:33:30
+# @Last Modified time: 2016-07-01 16:02:51
 
 
 import sys
@@ -31,8 +31,8 @@ class TestPreprocessorMethods(unittest.TestCase):
                 text = data['text']
                 cleaned_text = self.preprocessor.preprocess(text)
                 f.write('\n' + '#'*25)
-                f.write('\n### original ###\n')
-                f.write(text.encode('ascii', 'ignore'))
+                # f.write('\n### original ###\n')
+                # f.write(text.encode('ascii', 'ignore'))
                 f.write('\n### clean ###\n')
                 f.write(str(cleaned_text))
 
