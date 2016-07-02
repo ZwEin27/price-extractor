@@ -2,9 +2,10 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-01 16:59:13
+# @Last Modified time: 2016-07-01 17:19:14
 
 import re
+import inflection
 
 class Preprocessor():
     def __init__(self):
@@ -31,8 +32,8 @@ class Preprocessor():
     # remove irrelated
     irrelation_regex_list = [
         r'(?:(?<=\d)\.00\b)',               # $160.00 => $160
-        r'(?:\d{4,}\.)',                  # 925354849.80 => 80
-        r'(?:\d{4,}[a-z]+\d{4,}\.)',      # 92535l4849.80 => 80
+        r'(?:\d{4,}\.)',                    # 925354849.80 => 80
+        r'(?:\d{4,}[a-z]+\d{4,}\.)',        # 92535l4849.80 => 80
         r'(?:\d+[ \t]*%)',                  # 1000%
         reg_irr_units,
         reg_punctuation
@@ -84,8 +85,8 @@ class Preprocessor():
         text = Preprocessor.re_irrelation.sub(' ', text)
         text = Preprocessor.re_single_space.sub('', text)
         text = Preprocessor.re_phone_number.sub('', text)
-
-
+        text = inflection.singularize(text)
+        text = ' '.join([inflection.singularize(_) for _ in text.split(' ')])
 
         return text.split('\n') # future find all instead
 
