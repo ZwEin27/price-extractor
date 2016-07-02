@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-01 16:02:26
+# @Last Modified time: 2016-07-01 16:59:13
 
 import re
 
@@ -17,7 +17,7 @@ class Preprocessor():
     
     
     # punctuations
-    # !"#%&\'()*+,-./:;<=>?@[\]^_`{|}~
+    # !"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~
     reg_punctuation = r'(?:[!"#%&\'()*+,-./:;<=>?@[\]^_`{|}~])'
 
 
