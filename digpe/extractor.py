@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:49
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-01 17:00:18
+# @Last Modified time: 2016-07-03 11:20:52
 
 
 """ Patterns
@@ -20,18 +20,37 @@ unit: dollar, rose, candy...
 
 class Extractor():
 
-    time_units = [
-        'hh', 
-        'ss',
-        'hr',
 
+    time_units = [
+        'half',
+        'hlf',
+        'h',
+        'hh',
+        'hr',
+        'hhr',
+        'h hr',
+        'fh',
+        'hour',
+        'hourly' 
+        'q',
+        'qk',
+        'qv',
+        'hmu',
+        'hummer',
+        'min',
+        'minute',
+        'ss',
+        'second'
     ]
 
     price_units = [
         'dollar',
         '$',
         'rose',
-        'candy'
+        'candy',
+        'nuck',
+        'euro',
+        'donation'
     ]
 
 

@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-03 10:58:28
+# @Last Modified time: 2016-07-03 11:26:14
 
 import re
 import inflection
@@ -32,9 +32,9 @@ class Preprocessor():
     re_eighty_x = re.compile(r"(eight|eighty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
     re_ninety_x = re.compile(r"(nine|ninety[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
 
-    re_ten = re.compile(r"(?<=[ilo0-9])ten")
-    re_one = re.compile(r'(?:(?<=[0-9yneorxt\A\n ])one|(?:(?<=[ils])[i]((?=[ils])|$)))')
-    re_zero = re.compile(r'(?:zero|oh|(?:(?<=[0-9])(o+?))|(?:o(?=[0-9]))|(?:(?<=[o\s])o(?=[o\s])))')
+    re_ten = re.compile(r"(?<=[ilo0-9\A\n ])ten")
+    re_one = re.compile(r'(?:\bper\b|(?<=[0-9yneorxt\A\n ])one)')
+    re_zero = re.compile(r'(?:\bzero\b|(?<=[0-9])o+\b|\bo+(?=[0-9])|\boh\b|(?:(?<=[o\s])o(?=[o\s])))')
 
     @staticmethod
     def replace_numeral_words(raw):
