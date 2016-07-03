@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-01 17:19:14
+# @Last Modified time: 2016-07-03 10:36:58
 
 import re
 import inflection
@@ -85,8 +85,8 @@ class Preprocessor():
         text = Preprocessor.re_irrelation.sub(' ', text)
         text = Preprocessor.re_single_space.sub('', text)
         text = Preprocessor.re_phone_number.sub('', text)
-        text = inflection.singularize(text)
-        text = ' '.join([inflection.singularize(_) for _ in text.split(' ')])
-
-        return text.split('\n') # future find all instead
+        text = text.split('\n')
+        text = [' '.join([inflection.singularize(token) for token in _.split(' ')]) for _ in text]
+        return text
+        # return text.split('\n') # future find all instead
 
