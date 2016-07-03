@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-03 10:36:58
+# @Last Modified time: 2016-07-03 10:58:28
 
 import re
 import inflection
@@ -20,6 +20,60 @@ class Preprocessor():
     # punctuations
     # !"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~
     reg_punctuation = r'(?:[!"#%&\'()*+,-./:;<=>?@[\]^_`{|}~])'
+
+    # mis spell
+    numbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'siz', 'seven', 'eight', 'nine']
+    re_twenty_x = re.compile(r"(two|twenty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_thirty_x = re.compile(r"(three|thirty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_forty_x = re.compile(r"(four|forty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_fifty_x = re.compile(r"(five|fifty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_sixty_x = re.compile(r"(six|sixty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_seventy_x = re.compile(r"(seven|seventy[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_eighty_x = re.compile(r"(eight|eighty[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+    re_ninety_x = re.compile(r"(nine|ninety[\W_]+(?=(\d|" + r"|".join(numbers) + ")))")
+
+    re_ten = re.compile(r"(?<=[ilo0-9])ten")
+    re_one = re.compile(r'(?:(?<=[0-9yneorxt\A\n ])one|(?:(?<=[ils])[i]((?=[ils])|$)))')
+    re_zero = re.compile(r'(?:zero|oh|(?:(?<=[0-9])(o+?))|(?:o(?=[0-9]))|(?:(?<=[o\s])o(?=[o\s])))')
+
+    @staticmethod
+    def replace_numeral_words(raw):
+        raw = raw.replace("hundred", "00")
+        raw = raw.replace("thousand", "000")
+
+        raw = raw.replace("eleven", "11")
+        raw = raw.replace("twelve", "12")
+        raw = raw.replace("thirteen", "13")
+        raw = raw.replace("fourteen", "14")
+        raw = raw.replace("fifteen", "15")
+        raw = raw.replace("sixteen", "16")
+        raw = raw.replace("seventeen", "17")
+        raw = raw.replace("eighteen", "18")
+        raw = raw.replace("nineteen", "19")
+
+        raw = Preprocessor.re_twenty_x.sub("2", raw)
+        raw = Preprocessor.re_thirty_x.sub("3", raw)
+        raw = Preprocessor.re_forty_x.sub("4", raw)
+        raw = Preprocessor.re_fifty_x.sub("5", raw)
+        raw = Preprocessor.re_sixty_x.sub("6", raw)
+        raw = Preprocessor.re_seventy_x.sub("7", raw)
+        raw = Preprocessor.re_eighty_x.sub("8", raw)
+        raw = Preprocessor.re_ninety_x.sub("9", raw)
+
+        raw = Preprocessor.re_ten.sub("10", raw)
+        raw = Preprocessor.re_one.sub("1", raw)
+        raw = Preprocessor.re_zero.sub("0", raw)
+
+        raw = raw.replace("twenty", "20")
+        raw = raw.replace("thirty", "30")
+        raw = raw.replace("forty", "40")
+        raw = raw.replace("fifty", "50")
+        raw = raw.replace("sixty", "60")
+        raw = raw.replace("seventy", "70")
+        raw = raw.replace("eighty", "80")
+        raw = raw.replace("ninety", "90")
+        return raw
+
 
 
     irr_units = [
@@ -82,6 +136,7 @@ class Preprocessor():
 
     def preprocess(self, text):
         text = text.encode('ascii', 'ignore').lower()
+        text = Preprocessor.replace_numeral_words(text)
         text = Preprocessor.re_irrelation.sub(' ', text)
         text = Preprocessor.re_single_space.sub('', text)
         text = Preprocessor.re_phone_number.sub('', text)
