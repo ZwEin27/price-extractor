@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-03 11:26:14
+# @Last Modified time: 2016-07-03 21:03:38
 
 import re
 import inflection
@@ -78,9 +78,10 @@ class Preprocessor():
 
     irr_units = [
         r'lb',
+        r'lbs',
         r'c',
     ]
-    reg_irr_units = r'(?:\b\d{1,2}\'\d{1,2}\b|\d+(' + r'|'.join(irr_units) + '))'      # 5'9/160lb/36C
+    reg_irr_units = r'(?:(?:\b\d{1,2}\'\d{1,2}\b)|(?:\d+(' + r'|'.join(irr_units) + r')\b))'      # 5'9/160lb/36C
 
 
     # remove irrelated

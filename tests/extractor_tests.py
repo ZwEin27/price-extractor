@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 16:07:00
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-03 10:33:24
+# @Last Modified time: 2016-07-03 12:13:54
 
 import sys
 import time
@@ -30,11 +30,12 @@ class TestExtractorMethods(unittest.TestCase):
         with open(os.path.join(TEST_DATA_DIR, 'extracted_text'), 'wb') as f:
             for data in self.groundtruth_data:
                 text = data['text']
-                cleaned_text = self.preprocessor.preprocess(text)
-                extracted_text = self.extractor.extract(cleaned_text)
+                cleaned_text_list = self.preprocessor.preprocess(text)
+                extracted_text_list = [self.extractor.extract(cleaned_text) for cleaned_text in cleaned_text_list]
+                extracted_text = [val for sublist in extracted_text_list for val in sublist]  
                 f.write('\n' + '#'*25)
-                # f.write('\n### cleaned ###\n')
-                # f.write(str(cleaned_text))
+                f.write('\n### cleaned ###\n')
+                f.write(str(cleaned_text_list))
                 f.write('\n### extraction ###\n')
                 f.write(str(extracted_text))
 
