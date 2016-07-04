@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-03 21:03:38
+# @Last Modified time: 2016-07-04 10:22:09
 
 import re
 import inflection
@@ -38,6 +38,7 @@ class Preprocessor():
 
     @staticmethod
     def replace_numeral_words(raw):
+        raw = raw.replace("1/2", "half")
         raw = raw.replace("hundred", "00")
         raw = raw.replace("thousand", "000")
 
