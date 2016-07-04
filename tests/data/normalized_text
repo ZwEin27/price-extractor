@@ -1,0 +1,726 @@
+
+#########################
+### extracted ###
+['50$ss', '70$hh']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '70', 'price_unit': '$', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['hh 120']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['80 hh', '150 hr']
+### normalized ###
+[{'price': '80', 'price_unit': None, 'time_unit': 'hh'}, {'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['120 hh', '220hr']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hh'}, {'price': '220', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qk 60', 'hh 100', 'qk 120', 'hh 160']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'qk'}, {'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '120', 'price_unit': None, 'time_unit': 'qk'}, {'price': '160', 'price_unit': None, 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['50$ss', '70$hh']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '70', 'price_unit': '$', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['100 q', '150 hh', '250 h']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'q'}, {'price': '150', 'price_unit': None, 'time_unit': 'hh'}, {'price': '250', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+['120 hh', '200 fh']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'fh'}]
+#########################
+### extracted ###
+['40$ss', '65$hh']
+### normalized ###
+[{'price': '40', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['100candy hh', '150candy hh', '250candy hh']
+### normalized ###
+[{'price': '100', 'price_unit': 'candy', 'time_unit': 'hh'}, {'price': '150', 'price_unit': 'candy', 'time_unit': 'hh'}, {'price': '250', 'price_unit': 'candy', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['120 hh', '200 hr']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['60 hh', '100 hr']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'hh'}, {'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['150 hh', '250 hr']
+### normalized ###
+[{'price': '150', 'price_unit': None, 'time_unit': 'hh'}, {'price': '250', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['120 hh', '200h']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+['$120 hh', '$160hour']
+### normalized ###
+[{'price': '120', 'price_unit': '$', 'time_unit': 'hh'}, {'price': '160', 'price_unit': '$', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['60 hh']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['hh 60']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['100 hh', '150 h']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '150', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+['40$ss', '65$hh']
+### normalized ###
+[{'price': '40', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['45$ss', '65$hh']
+### normalized ###
+[{'price': '45', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['$120 hh', '$160hour']
+### normalized ###
+[{'price': '120', 'price_unit': '$', 'time_unit': 'hh'}, {'price': '160', 'price_unit': '$', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['150 hh', '250 hr']
+### normalized ###
+[{'price': '150', 'price_unit': None, 'time_unit': 'hh'}, {'price': '250', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['120 hh', '200 fh']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'fh'}]
+#########################
+### extracted ###
+['100ss', '150 hh', '200 hr']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'ss'}, {'price': '150', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qv 80', 'hh 100', 'hr 140']
+### normalized ###
+[{'price': '80', 'price_unit': None, 'time_unit': 'qv'}, {'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qk 70', 'hh 95', 'h 160', 'qk 120', 'hh 160', 'h 200']
+### normalized ###
+[{'price': '70', 'price_unit': None, 'time_unit': 'qk'}, {'price': '95', 'price_unit': None, 'time_unit': 'hh'}, {'price': '160', 'price_unit': None, 'time_unit': 'h'}, {'price': '120', 'price_unit': None, 'time_unit': 'qk'}, {'price': '160', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+['hf hr 120', 'hr 150']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hf hr'}, {'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['80 half hr', '120 full hr']
+### normalized ###
+[{'price': '80', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '120', 'price_unit': None, 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['hr 140', 'half 100']
+### normalized ###
+[{'price': '140', 'price_unit': None, 'time_unit': 'hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'half'}]
+#########################
+### extracted ###
+['hr 95']
+### normalized ###
+[{'price': '95', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 hr']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['60 half hr', '100 hr']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['55 half hr', '100 hr']
+### normalized ###
+[{'price': '55', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['hhr 100', 'hr 150']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hhr'}, {'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['hhr 130', 'hr 150']
+### normalized ###
+[{'price': '130', 'price_unit': None, 'time_unit': 'hhr'}, {'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['hr 95']
+### normalized ###
+[{'price': '95', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['$300 hr', '$250 hr', '$200 half hr']
+### normalized ###
+[{'price': '300', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '250', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '200', 'price_unit': '$', 'time_unit': 'half hr'}]
+#########################
+### extracted ###
+['1 hr $350', '1 hr $175', '2 hr', '$550 2 hr', '2 hr', '$250 2 hr']
+### normalized ###
+[{'price': '350', 'price_unit': '$', 'time_unit': '1 hr'}, {'price': '175', 'price_unit': '$', 'time_unit': '1 hr'}, {'price': '2', 'price_unit': None, 'time_unit': 'hr'}, {'price': '550', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '2', 'price_unit': None, 'time_unit': 'hr'}, {'price': '250', 'price_unit': '$', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['125 hhr', '175 hr']
+### normalized ###
+[{'price': '125', 'price_unit': None, 'time_unit': 'hhr'}, {'price': '175', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['300 hr']
+### normalized ###
+[{'price': '300', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['$250 hr']
+### normalized ###
+[{'price': '250', 'price_unit': '$', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100ss', '150 hh', '200 hr']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'ss'}, {'price': '150', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['$50 hr', '$65 hr', '$60 hr', '4 h', '$99 hr']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '60', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '4', 'price_unit': None, 'time_unit': 'h'}, {'price': '99', 'price_unit': '$', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['70 half hr', '120 hr', '140 1 hr']
+### normalized ###
+[{'price': '70', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '120', 'price_unit': None, 'time_unit': 'hr'}, {'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['hhr 95', 'hr 160']
+### normalized ###
+[{'price': '95', 'price_unit': None, 'time_unit': 'hhr'}, {'price': '160', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 hh', '160 hr']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '160', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['30 min $120', 'hr$140']
+### normalized ###
+[{'price': '120', 'price_unit': '$', 'time_unit': '30 min'}, {'price': '140', 'price_unit': '$', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100half hour', '175 hr']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '175', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100ss', '150 hh', '200 hr']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'ss'}, {'price': '150', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qv 80', 'hh 100', 'hr 140']
+### normalized ###
+[{'price': '80', 'price_unit': None, 'time_unit': 'qv'}, {'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['200 hr', '300 hr']
+### normalized ###
+[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '300', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['180 h hr', '240 hr']
+### normalized ###
+[{'price': '180', 'price_unit': None, 'time_unit': 'h hr'}, {'price': '240', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['120 hf', '200 hr', '350 hr']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hf'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['75 half hr', '125 hr']
+### normalized ###
+[{'price': '75', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '125', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['hlf hr 50', 'full hr 100']
+### normalized ###
+[{'price': '50', 'price_unit': None, 'time_unit': 'hlf hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['$300 hr', '$250 hr']
+### normalized ###
+[{'price': '300', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '250', 'price_unit': '$', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['25 for 10 min', '55 half hr', '100 hr']
+### normalized ###
+[{'price': '25', 'price_unit': None, 'time_unit': 'min'}, {'price': '55', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['15 min $50', 'half hr $70', 'full hr $100']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['120 hf', '200 hr', '350 hr']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hf'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['120 hf', '200 hr', '350 hr']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hf'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['15 min $50', 'half hr $70', 'full hr $100']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['15 min $50', 'half hr $70', 'full hr $100']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['120 hf', '200 hr', '250 hf', '350 hr']
+### normalized ###
+[{'price': '120', 'price_unit': None, 'time_unit': 'hf'}, {'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '250', 'price_unit': None, 'time_unit': 'hf'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['half hr 100$', 'hr 150']
+### normalized ###
+[{'price': '100', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['75 hlf hr', '100 hr']
+### normalized ###
+[{'price': '75', 'price_unit': None, 'time_unit': 'hlf hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['25 10 minute', '60 half hr', '100 hr']
+### normalized ###
+[{'price': '25', 'price_unit': None, 'time_unit': 'minute'}, {'price': '60', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['150 half hr', '250 hr']
+### normalized ###
+[{'price': '150', 'price_unit': None, 'time_unit': 'half hr'}, {'price': '250', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['15 min $50', 'half hr $70', 'full hr $100']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['15 min $50', 'half hr $70', 'full hr $100']
+### normalized ###
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+#########################
+### extracted ###
+['100 half hour', '150 hour']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['60 half hour', '120 hour']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '120', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['1 hour 3000', '2 hour 5000']
+### normalized ###
+[{'price': '00', 'price_unit': None, 'time_unit': '1 hour'}, {'price': '5000', 'price_unit': None, 'time_unit': '2 hour'}]
+#########################
+### extracted ###
+['1 hour 3000']
+### normalized ###
+[{'price': '00', 'price_unit': None, 'time_unit': '1 hour'}]
+#########################
+### extracted ###
+['1 hour 250 euro']
+### normalized ###
+[{'price': '250', 'price_unit': 'euro', 'time_unit': '1 hour'}]
+#########################
+### extracted ###
+['180euro 1 hour']
+### normalized ###
+[{'price': '180', 'price_unit': 'euro', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['100hh', '200 hour']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '200', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['250 hour']
+### normalized ###
+[{'price': '250', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['half hour 100', 'hour 150']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['80 half hour', '120 hour']
+### normalized ###
+[{'price': '80', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '120', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['100 half hour', '175 hour']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '175', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['1 hour', '50 nuck 1 hour']
+### normalized ###
+[{'price': '1', 'price_unit': None, 'time_unit': 'hour'}, {'price': '50', 'price_unit': 'nuck', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['half hour $40', '1 hour $60']
+### normalized ###
+[{'price': '40', 'price_unit': '$', 'time_unit': 'half hour'}, {'price': '60', 'price_unit': '$', 'time_unit': '1 hour'}]
+#########################
+### extracted ###
+['100 half hour', '150 hour']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['60 half hour', '115 hour']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '115', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['1 hour 3000', '2 hour 5000']
+### normalized ###
+[{'price': '00', 'price_unit': None, 'time_unit': '1 hour'}, {'price': '5000', 'price_unit': None, 'time_unit': '2 hour'}]
+#########################
+### extracted ###
+['$80 for half hour', '$200 for hour']
+### normalized ###
+[{'price': '80', 'price_unit': '$', 'time_unit': 'half hour'}, {'price': '200', 'price_unit': '$', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['100 half hour', '175 hour']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '175', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['60 half hour', '115 hour']
+### normalized ###
+[{'price': '60', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '115', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['half hour 100', 'hour 150']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['half hour 100', 'hour 150']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'half hour'}, {'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['half hour 100$', 'hour 150$']
+### normalized ###
+[{'price': '100', 'price_unit': '$', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '$', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['100hh', '185h']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '185', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+['100hh', '185h']
+### normalized ###
+[{'price': '100', 'price_unit': None, 'time_unit': 'hh'}, {'price': '185', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['100 rose', 'hhr 140 rose', 'hr 240 rose']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '240', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['90 rose', '100 rose', '150 rose']
+### normalized ###
+[{'price': '90', 'price_unit': 'rose', 'time_unit': None}, {'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '150', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['qv 80 rose', '30minute 120 rose', 'hourly 180 rose', 'hourly220']
+### normalized ###
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '30minute'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hourly'}, {'price': '220', 'price_unit': None, 'time_unit': 'hourly'}]
+#########################
+### extracted ###
+['100 rose', 'hhr 140 rose', 'hr 240 rose']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '240', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 rose hh', '140 rose 45 min', '$160 rose hr', '$240 rose 90 min', '2 hr', '140 rose hh', '180 rose 45min', '200 rose hr', '300 rose 90 min', '350 rose 2 hr', '400 hr']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '160', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '240', 'price_unit': '$', 'time_unit': 'min'}, {'price': '2', 'price_unit': None, 'time_unit': 'hr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '0', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '350', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '400', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 rose qv', '150 rose hh', '70 rose hh', '120 rose h']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '70', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'h'}]
+#########################
+### extracted ###
+['hummer 60 rose', 'ss 80 rose', 'half 125 rose', 'hour 200 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'h'}, {'price': '80', 'price_unit': 'rose', 'time_unit': 'ss'}, {'price': '125', 'price_unit': 'rose', 'time_unit': 'half'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['100$rose 30min', '200$rose 1hour']
+### normalized ###
+[{'price': '100', 'price_unit': '$rose', 'time_unit': '30'}, {'price': '200', 'price_unit': '$rose', 'time_unit': 'hour'}]
+#########################
+### extracted ###
+['hh 100 rose', 'hr 200 rose']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['30 90 rose', 'hh 180 rose']
+### normalized ###
+[{'price': '90', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['30 min 150 rose', '100 hr 200 rose']
+### normalized ###
+[{'price': '150', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': '100 hr'}]
+#########################
+### extracted ###
+['30 90 rose', 'hh 180 rose']
+### normalized ###
+[{'price': '90', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['60 rose 15min', '100 rose hhr']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}]
+#########################
+### extracted ###
+['100 rose 30 min', '150 rose full hour']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'full hour'}]
+#########################
+### extracted ###
+['180 rose', '200 rose']
+### normalized ###
+[{'price': '180', 'price_unit': 'rose', 'time_unit': None}, {'price': '200', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
+### normalized ###
+[{'price': '50', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '65', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '80', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['60 rose 15min', '85 rose 30min', '140 rose 45min', '200 rose hr', '35 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '85', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '35', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['60 rose 15min', '85 rose 30min', '130 rose 45min', '200 rose hr', '35 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '85', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '1', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '35', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
+### normalized ###
+[{'price': '50', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '65', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '80', 'price_unit': 'rose', 'time_unit': '30'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'min'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 rose for half hour', '200 rose for 1 hour', '75 rose for 20 minute']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'half hour'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hour'}, {'price': '75', 'price_unit': 'rose', 'time_unit': 'minute'}]
+#########################
+### extracted ###
+['15 minute 60 rose', '30 minute 100 rose', '1 hour 150 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': '15 minute'}, {'price': '100', 'price_unit': 'rose', 'time_unit': '30 minute'}, {'price': '150', 'price_unit': 'rose', 'time_unit': '1 hour'}]
+#########################
+### extracted ###
+['90 rose', '100 rose', '150 rose']
+### normalized ###
+[{'price': '90', 'price_unit': 'rose', 'time_unit': None}, {'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '150', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['15 min 75 rose', '30 min 95 rose', '1 hour 120 rose']
+### normalized ###
+[{'price': '75', 'price_unit': 'rose', 'time_unit': '15 min'}, {'price': '95', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '1 hour'}]
+#########################
+### extracted ###
+['60 rose hhr', '80 rose hour', '120 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '80', 'price_unit': 'rose', 'time_unit': 'hour'}, {'price': '120', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['half hour 130 rose', '1hour 200 rose', '80 rose']
+### normalized ###
+[{'price': '130', 'price_unit': 'rose', 'time_unit': 'half hour'}, {'price': '200', 'price_unit': 'rose', 'time_unit': '1hour'}, {'price': '80', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['ss80 rose', 'hh120 rose', 'hr160 rose']
+### normalized ###
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'ss'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '160', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qv 80 rose', '30minute 120 rose', 'hourly 180 rose', 'hourly200']
+### normalized ###
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '30minute'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hourly'}, {'price': '200', 'price_unit': None, 'time_unit': 'hourly'}]
+#########################
+### extracted ###
+['qv 80 rose', 'hh 100 rose', 'hr 160 rose']
+### normalized ###
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '160', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
+### normalized ###
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['100 rose qv', '150 rose hh', '70 rose hh', '120 rose h']
+### normalized ###
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '70', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'h'}]
+#########################
+### extracted ###
+['30 min 150 rose', '1 hour 250 rose', '2 hour 400 rose', '1000 rose']
+### normalized ###
+[{'price': '150', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '250', 'price_unit': 'rose', 'time_unit': '1 hour'}, {'price': '400', 'price_unit': 'rose', 'time_unit': '2 hour'}, {'price': '1000', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['$ 100 rose']
+### normalized ###
+[{'price': '100', 'price_unit': '$', 'time_unit': None}]
+#########################
+### extracted ###
+['$150hr', '$60 qv']
+### normalized ###
+[{'price': '150', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '60', 'price_unit': '$', 'time_unit': 'qv'}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['ss40', 'hh60', 'ss50', 'hh80', 'hr140 donation$']
+### normalized ###
+[{'price': '40', 'price_unit': None, 'time_unit': 'ss'}, {'price': '60', 'price_unit': None, 'time_unit': 'hh'}, {'price': '50', 'price_unit': None, 'time_unit': 'ss'}, {'price': '80', 'price_unit': None, 'time_unit': 'hh'}, {'price': '140', 'price_unit': 'donation$', 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 donation']
+### normalized ###
+[{'price': '100', 'price_unit': 'donation', 'time_unit': None}]
+#########################
+### extracted ###
+['donation 80']
+### normalized ###
+[{'price': '80', 'price_unit': 'donation', 'time_unit': None}]
+#########################
+### extracted ###
+['donation 60hh']
+### normalized ###
+[{'price': '60', 'price_unit': 'donation', 'time_unit': 'hh'}]
+#########################
+### extracted ###
+['15min', '50 20min', '60 hhr', '80 hr']
+### normalized ###
+[{'price': '15', 'price_unit': None, 'time_unit': 'min'}, {'price': '50', 'price_unit': None, 'time_unit': 'min'}, {'price': '60', 'price_unit': None, 'time_unit': 'hhr'}, {'price': '80', 'price_unit': None, 'time_unit': 'hr'}]
+#########################
+### extracted ###
+['100 donation']
+### normalized ###
+[{'price': '100', 'price_unit': 'donation', 'time_unit': None}]
+#########################
+### extracted ###
+[]
+### normalized ###
+[]
+#########################
+### extracted ###
+['25 rose']
+### normalized ###
+[{'price': '25', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['300 donation', '130hh', '230h']
+### normalized ###
+[{'price': '300', 'price_unit': 'donation', 'time_unit': None}, {'price': '130', 'price_unit': None, 'time_unit': 'hh'}, {'price': '230', 'price_unit': None, 'time_unit': 'h'}]
+#########################
+### extracted ###
+['200 rose', '100 rose', '70 rose']
+### normalized ###
+[{'price': '200', 'price_unit': 'rose', 'time_unit': None}, {'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '70', 'price_unit': 'rose', 'time_unit': None}]
+#########################
+### extracted ###
+['$160 hh', '$260 hour', '$280 donation']
+### normalized ###
+[{'price': '160', 'price_unit': '$', 'time_unit': 'hh'}, {'price': '260', 'price_unit': '$', 'time_unit': 'hour'}, {'price': '280', 'price_unit': '$', 'time_unit': None}]

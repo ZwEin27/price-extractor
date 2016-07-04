@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:49
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-04 11:29:10
+# @Last Modified time: 2016-07-04 15:59:13
 
 
 """ Patterns
@@ -18,69 +18,19 @@ unit: dollar, rose, candy...
 """
 import re
 
+from unit import *
+
 class Extractor():
 
     re_digits = re.compile(r'\d+')
+    re_alphabet = re.compile(r'[a-z]+')
 
 
-    time_units = [
-        'hourly',
-        'half hour',
-        'half hr',
-        'half',
-        'hlf hr',
-        'hlf hour',
-        'hf hr',
-        'h hour',
-        'h hr',
-        'h h',
-        'full hour',
-        'full hr',
-        'f hour',
-        'f hr',
-        'f h',
-        'fh',
-        'hhr',
-        'hh',
-        'hf',
-        'hr',
-        'hour',
-        'h',
-        'qk',
-        'qv',
-        'q',
-        'hummer',
-        'minute',
-        'min',
-        '30',
-        'ss',
-        'second'
-    ]
-
-    time_unit_hour = [
-        'hour',
-        'hr',
-        'h'
-    ]
-
-    time_unit_minute = [
-        'minute',
-        'min'
-    ]
-
-    price_units = [
-        '\$',
-        'dollar',
-        'euro',
-        'nuck',
-        'rose',
-        'candy',
-        'donation'
-    ]
+    
 
     reg_time_units = r'(?:'+ \
-                r'(?:\d{1,3}[ ]?(?:' + r'|'.join(time_unit_hour+time_unit_minute) + r'))' + r'|' \
-                r'(?:' + r'|'.join(time_units) + r')' \
+                r'(?:\d{1,3}[ ]?(?:' + r'|'.join(UNIT_TIME_HOUR+UNIT_TIME_MINUTE) + r'))' + r'|' \
+                r'(?:' + r'|'.join(UNIT_TIME_UNITS) + r')' \
                 r')'
     # reg_time_units = r'15 min'
 
@@ -93,7 +43,7 @@ class Extractor():
 
     reg_separator = r'[\t ]?'
     reg_price_digit = r'\d{1,4}'
-    reg_price_unit = r'(?:'+ r'|'.join(price_units) + r'){0,2}' # \b
+    reg_price_unit = r'(?:'+ r'|'.join(UNIT_PRICE_UNITS) + r'){0,2}' # \b
     reg_interval = r'\w{,30}'
 
     # patterns
@@ -143,10 +93,13 @@ class Extractor():
     reg_combine = re.compile(r'(?:' + r'|'.join([reg_time_price, reg_price_time]) + r')')
     # print r'(?:' + r'|'.join([reg_time_price, reg_price_time, reg_only_price]) + r')'
 
+    def filter(self, text_list):
+        ans = []
+        for text in text_list:
+            if Extractor.re_alphabet.findall(text):
+                ans.append(text)
+        return ans
 
-
-    def __init__(self):
-        pass
 
     def extract(self, text):
         # extractions = Extractor.reg_combine.findall(text)
@@ -183,7 +136,13 @@ class Extractor():
                     extra.append(op_ext)
                     break
         target += extra
-        return target
+
+        return self.filter(target)
         # return text_op_ext
 
         # """
+
+    def extract_from_list(self, text_list):
+        extracted_text_list = [self.extract(cleaned_text) for cleaned_text in text_list]
+        extracted_text = [val.strip() for sublist in extracted_text_list for val in sublist] 
+        return extracted_text

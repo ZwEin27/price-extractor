@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 16:07:00
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-04 11:26:39
+# @Last Modified time: 2016-07-04 11:49:17
 
 import sys
 import time
@@ -31,13 +31,12 @@ class TestExtractorMethods(unittest.TestCase):
             for data in self.groundtruth_data:
                 text = data['text']
                 cleaned_text_list = self.preprocessor.preprocess(text)
-                extracted_text_list = [self.extractor.extract(cleaned_text) for cleaned_text in cleaned_text_list]
-                extracted_text = [val for sublist in extracted_text_list for val in sublist]  
+                extracted_text_list = self.extractor.extract_from_list(cleaned_text_list)
                 f.write('\n' + '#'*25)
                 f.write('\n### cleaned ###\n')
                 f.write(str(cleaned_text_list))
                 f.write('\n### extraction ###\n')
-                f.write(str(extracted_text))
+                f.write(str(extracted_text_list))
 
     def test_extract_text(self):
         # text = 'no law enforcement in call 30 90 rose hh 180 rose call'
