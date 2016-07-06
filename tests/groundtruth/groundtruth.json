@@ -2,15 +2,15 @@
   "jsonlines": [
     {
       "text": "50$ss 70$hh",
-      "extraction": ["50-ss", "70-hh"]
+      "extraction": []
     },
     {
       "text": "Camila hh 120 strip",
-      "extraction": ["120-hh"]
+      "extraction": []
     },
     {
       "text": "92535l4849.80/hh.150/hr.",
-      "extraction": ["80-hh", "150-hr"]
+      "extraction": [{"price": "150", "price_unit": "", "time_unit": "hr"}]
     },
     {
       "text": "120 hh 220hr 2265670918",

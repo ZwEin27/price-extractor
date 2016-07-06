@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 16:07:00
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-04 12:13:47
+# @Last Modified time: 2016-07-04 18:31:38
 
 import sys
 import time
@@ -36,6 +36,10 @@ class TestExtractorMethods(unittest.TestCase):
                 extracted_text_list = self.extractor.extract_from_list(cleaned_text_list)
                 normalized_text_list = self.normalizer.normalize_from_list(extracted_text_list)
                 f.write('\n' + '#'*25)
+                f.write('\n### original ###\n')
+                f.write(text.encode('ascii', 'ignore'))
+                f.write('\n### cleaned ###\n')
+                f.write(str(cleaned_text_list))
                 f.write('\n### extracted ###\n')
                 f.write(str(extracted_text_list))
                 f.write('\n### normalized ###\n')

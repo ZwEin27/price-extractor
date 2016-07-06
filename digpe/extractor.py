@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:49
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-04 15:59:13
+# @Last Modified time: 2016-07-05 19:58:46
 
 
 """ Patterns
@@ -146,3 +146,17 @@ class Extractor():
         extracted_text_list = [self.extract(cleaned_text) for cleaned_text in text_list]
         extracted_text = [val.strip() for sublist in extracted_text_list for val in sublist] 
         return extracted_text
+
+
+if __name__ == '__main__':
+    text = 'ilk chocolate remycome get a taste4 20 friendly very discreet special ss80 rose hh120 rose hr160 rose available now call'
+    extractor = Extractor()
+    print extractor.extract(text)
+
+
+
+
+
+
+
+

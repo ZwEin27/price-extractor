@@ -3,112 +3,112 @@
 ### cleaned ###
 ['50$ss 70$hh']
 ### extraction ###
-['50$ss', '70$hh']
+['50$', '70$']
 #########################
 ### cleaned ###
 ['camila hh 120 strip']
 ### extraction ###
-['hh 120']
+['120']
 #########################
 ### cleaned ###
 [' 80 hh 150 hr ']
 ### extraction ###
-['80 hh', '150 hr']
+['80', '150']
 #########################
 ### cleaned ###
 ['120 hh 220hr ']
 ### extraction ###
-['120 hh', '220hr']
+['120', '220']
 #########################
 ### cleaned ###
 [' incall', 'qk 60', 'hh 100', '', '', 'outcall', 'qk 120', 'hh 160']
 ### extraction ###
-['qk 60', 'hh 100', 'qk 120', 'hh 160']
+['60', '100', '120', '160']
 #########################
 ### cleaned ###
 ['50$ss 70$hh ']
 ### extraction ###
-['50$ss', '70$hh']
+['50$', '70$']
 #########################
 ### cleaned ###
 ['100 q', '150 hh', '250 h']
 ### extraction ###
-['100 q', '150 hh', '250 h']
+['100', '150', '250']
 #########################
 ### cleaned ###
 ['madison ', '', '120 hh', '200 fh']
 ### extraction ###
-['120 hh', '200 fh']
+['120', '200']
 #########################
 ### cleaned ###
 ['40$ss 65$hh ']
 ### extraction ###
-['40$ss', '65$hh']
+['40$', '65$']
 #########################
 ### cleaned ###
 [' 100candy hh', 'incall special', 'east houston', 'incall 150candy hh', 'outcall 250candy hh', 'fri sat by appt', '', '210 920 4ari', '4274']
 ### extraction ###
-['100candy hh', '150candy hh', '250candy hh']
+['100candy', '150candy', '250candy', '210', '920', '4', '4274']
 #########################
 ### cleaned ###
 ['avail now 120 hh 200 hr ']
 ### extraction ###
-['120 hh', '200 hr']
+['120', '200']
 #########################
 ### cleaned ###
 ['weekend special 60 hh 100 hr']
 ### extraction ###
-['60 hh', '100 hr']
+['60', '100']
 #########################
 ### cleaned ###
 ['call me', '150 hh 250 hr', '']
 ### extraction ###
-['150 hh', '250 hr']
+['150', '250']
 #########################
 ### cleaned ###
 ['super tuesday special 120 hh 200h']
 ### extraction ###
-['120 hh', '200h']
+['120', '200']
 #########################
 ### cleaned ###
 ['sexy cubanitum  $120 hh $160hour']
 ### extraction ###
-['$120 hh', '$160hour']
+['$120', '$160']
 #########################
 ### cleaned ###
 ['60 hh', 'incall', 'clean', '', ' pinkyy ']
 ### extraction ###
-['60 hh']
+['60']
 #########################
 ### cleaned ###
 ['early morning special hh 60 incall ']
 ### extraction ###
-['hh 60']
+['60']
 #########################
 ### cleaned ###
 ['jazz', '', '', '', '', '100 hh', '', '150 h']
 ### extraction ###
-['100 hh', '150 h']
+['100', '150']
 #########################
 ### cleaned ###
 ['40$ss 65$hh ']
 ### extraction ###
-['40$ss', '65$hh']
+['40$', '65$']
 #########################
 ### cleaned ###
 [' 45$ss 65$hh']
 ### extraction ###
-['45$ss', '65$hh']
+['45$', '65$']
 #########################
 ### cleaned ###
 ['sexy cubanitum  $120 hh $160hour']
 ### extraction ###
-['$120 hh', '$160hour']
+['$120', '$160']
 #########################
 ### cleaned ###
 ['150 hh', '250 hr', 'text ']
 ### extraction ###
-['150 hh', '250 hr']
+['150', '250']
 #########################
 ### cleaned ###
 ['hh ss z e r o']
@@ -118,267 +118,267 @@
 ### cleaned ###
 ['madison ', '', '120 hh', '200 fh']
 ### extraction ###
-['120 hh', '200 fh']
+['120', '200']
 #########################
 ### cleaned ###
 ['lovely treat 100ss 150 hh 200 hr']
 ### extraction ###
-['100ss', '150 hh', '200 hr']
+['100', '150', '200']
 #########################
 ### cleaned ###
 ['', 'qv 80', 'hh 100', 'hr 140']
 ### extraction ###
-['qv 80', 'hh 100', 'hr 140']
+['80', '100', '140']
 #########################
 ### cleaned ###
 [' incall', 'qk 70', 'hh 95', 'h 160', '', 'outcall', 'qk 120', 'hh 160', 'h 200']
 ### extraction ###
-['qk 70', 'hh 95', 'h 160', 'qk 120', 'hh 160', 'h 200']
+['70', '95', '160', '120', '160', '200']
 #########################
 ### cleaned ###
 ['jasmine', 'hf hr 120', 'hr 150', '']
 ### extraction ###
-['hf hr 120', 'hr 150']
+['120', '150']
 #########################
 ### cleaned ###
 ['', '80 half hr', '120 full hr']
 ### extraction ###
-['80 half hr', '120 full hr']
+['80', '120']
 #########################
 ### cleaned ###
 ['hr 140 half 100']
 ### extraction ###
-['hr 140', 'half 100']
+['140', '100']
 #########################
 ### cleaned ###
 ['camila hr 95 strip']
 ### extraction ###
-['hr 95']
+['95']
 #########################
 ### cleaned ###
 ['hmu 100 hr ']
 ### extraction ###
-['100 hr']
+['100']
 #########################
 ### cleaned ###
 ['call la la ', '60 half hr', '100 hr']
 ### extraction ###
-['60 half hr', '100 hr']
+['60', '100']
 #########################
 ### cleaned ###
 ['55 half hr', '100 hr', ' la la ']
 ### extraction ###
-['55 half hr', '100 hr']
+['55', '100']
 #########################
 ### cleaned ###
 [' ', 'hhr 100 hr 150']
 ### extraction ###
-['hhr 100', 'hr 150']
+['100', '150']
 #########################
 ### cleaned ###
 ['karla hhr 130 hr 150']
 ### extraction ###
-['hhr 130', 'hr 150']
+['130', '150']
 #########################
 ### cleaned ###
 ['camila hr 95 strip sesion']
 ### extraction ###
-['hr 95']
+['95']
 #########################
 ### cleaned ###
 ['$300 hr', '', '$250 hr before midday', '', '$200 half hr', '', 'gfe', 'facesitting', 'spanish', 'rimming on me']
 ### extraction ###
-['$300 hr', '$250 hr', '$200 half hr']
+['$300', '$250', '$200']
 #########################
 ### cleaned ###
 ['come explore your wild side with u', 'available a a couple or singularly', '', '', 'antoniochase21 gmail com', '', '1 hr $350 for both', '1 hr $175 for male', '2 hr $550 2 hr both', '2 hr $250 2 hr male']
 ### extraction ###
-['1 hr $350', '1 hr $175', '2 hr', '$550 2 hr', '2 hr', '$250 2 hr']
+['21', '1', '$350', '1', '$175', '2', '$550', '2', '2', '$250', '2']
 #########################
 ### cleaned ###
 ['125 hhr 175 hr  autumn']
 ### extraction ###
-['125 hhr', '175 hr']
+['125', '175']
 #########################
 ### cleaned ###
 ['today avail', '', '300 hr', '', '']
 ### extraction ###
-['300 hr']
+['300']
 #########################
 ### cleaned ###
 ['ask for photo', '', '$250 hr', '', 'prettyaricag gmail com']
 ### extraction ###
-['$250 hr']
+['$250']
 #########################
 ### cleaned ###
 ['lovely treat 100ss 150 hh 200 hr']
 ### extraction ###
-['100ss', '150 hh', '200 hr']
+['100', '150', '200']
 #########################
 ### cleaned ###
 ['bodywork $50 hr $65 hr original table shower body scrub bodywork $60 hr before 3pm 4 hand special $99 hr including free table shower call ']
 ### extraction ###
-['$50 hr', '$65 hr', '$60 hr', '4 h', '$99 hr']
+['$50', '$65', '$60', '3', '4', '$99']
 #########################
 ### cleaned ###
 ['carmeet 40 oral 50 sex', 'incall 70 half hr 120 hr outcall start at 140 1 hr']
 ### extraction ###
-['70 half hr', '120 hr', '140 1 hr']
+['40', '50', '70', '120', '140', '1']
 #########################
 ### cleaned ###
 ['karla sonja hhr 95 hr 160']
 ### extraction ###
-['hhr 95', 'hr 160']
+['95', '160']
 #########################
 ### cleaned ###
 ['100 hh', '160 hr', '', '']
 ### extraction ###
-['100 hh', '160 hr']
+['100', '160']
 #########################
 ### cleaned ###
 ['30 min $120 hr$140', '', '']
 ### extraction ###
-['30 min $120', 'hr$140']
+['30', '$120', '$140']
 #########################
 ### cleaned ###
 ['100half hour special 175 hr  autumn']
 ### extraction ###
-['100half hour', '175 hr']
+['100', '175']
 #########################
 ### cleaned ###
 ['lovely treat 100ss 150 hh 200 hr']
 ### extraction ###
-['100ss', '150 hh', '200 hr']
+['100', '150', '200']
 #########################
 ### cleaned ###
 ['', 'qv 80', 'hh 100', 'hr 140']
 ### extraction ###
-['qv 80', 'hh 100', 'hr 140']
+['80', '100', '140']
 #########################
 ### cleaned ###
 ['beautiful exotic voluptuou incall outcall', '', '200 hr or 300 hr flat', '', 'leila  ']
 ### extraction ###
-['200 hr', '300 hr']
+['200', '300']
 #########################
 ### cleaned ###
 ['thanksgiving out call blonde model', '', '180 h hr', '', '240 hr', '', '']
 ### extraction ###
-['180 h hr', '240 hr']
+['180', '240']
 #########################
 ### cleaned ###
 ['incall full service', '120 hf', '200 hr', 'outcall 350 hr', 'call me ']
 ### extraction ###
-['120 hf', '200 hr', '350 hr']
+['120', '200', '350']
 #########################
 ### cleaned ###
 ['sexy clean std free female escort', '', 'incall', '75 half hr 125 hr', '', '', 'north houston', '', 'laurina ']
 ### extraction ###
-['75 half hr', '125 hr']
+['75', '125']
 #########################
 ### cleaned ###
 ['mstoni ', '', 'hlf hr 50', 'full hr 100', '', 'also 2 girl special']
 ### extraction ###
-['hlf hr 50', 'full hr 100']
+['50', '100', '2']
 #########################
 ### cleaned ###
 ['$300 hr after midday $250 hr before midday', '', 'full service', 'gfe', 'facesitting']
 ### extraction ###
-['$300 hr', '$250 hr']
+['$300', '$250']
 #########################
 ### cleaned ###
 ['25 for 10 min', '55 half hr', '100 hr', 'call dont text blu']
 ### extraction ###
-['25 for 10 min', '55 half hr', '100 hr']
+['25', '10', '55', '100']
 #########################
 ### cleaned ###
 [' br', 'br', '15 min $50 br', 'half hr $70 br', 'full hr $100']
 ### extraction ###
-['15 min $50', 'half hr $70', 'full hr $100']
+['15', '$50', '$70', '$100']
 #########################
 ### cleaned ###
 ['incall', '120 hf', '200 hr', 'outcall', '350 hr', 'call me ']
 ### extraction ###
-['120 hf', '200 hr', '350 hr']
+['120', '200', '350']
 #########################
 ### cleaned ###
 ['my service very good', 'incall 120 hf 200 hr', 'outcall 350 hr', 'call me ']
 ### extraction ###
-['120 hf', '200 hr', '350 hr']
+['120', '200', '350']
 #########################
 ### cleaned ###
 [' ', '', '15 min $50', 'half hr $70', 'full hr $100']
 ### extraction ###
-['15 min $50', 'half hr $70', 'full hr $100']
+['15', '$50', '$70', '$100']
 #########################
 ### cleaned ###
 ['', '', '15 min $50', 'half hr $70', 'full hr $100']
 ### extraction ###
-['15 min $50', 'half hr $70', 'full hr $100']
+['15', '$50', '$70', '$100']
 #########################
 ### cleaned ###
 ['incall full service', '120 hf', '200 hr', 'outcall 250 hf 350 hr', 'call me ']
 ### extraction ###
-['120 hf', '200 hr', '250 hf', '350 hr']
+['120', '200', '250', '350']
 #########################
 ### cleaned ###
 ['young girl looking for company', 'donation', 'half hr 100$', 'hr 150', 'hosting', '']
 ### extraction ###
-['half hr 100$', 'hr 150']
+['100$', '150']
 #########################
 ### cleaned ###
 [' 75 hlf hr 100 hr question in person clean cut professional call only']
 ### extraction ###
-['75 hlf hr', '100 hr']
+['75', '100']
 #########################
 ### cleaned ###
 ['call me baby i m waiting on you ', '', '25 10 minute', '60 half hr', '100 hr']
 ### extraction ###
-['25 10 minute', '60 half hr', '100 hr']
+['25', '10', '60', '100']
 #########################
 ### cleaned ###
 ['new cbd sexy beautiful fit body naughty 150 half hr 250 hr extra available']
 ### extraction ###
-['150 half hr', '250 hr']
+['150', '250']
 #########################
 ### cleaned ###
 ['15 min $50', 'half hr $70', 'full hr $100', 'call or text ']
 ### extraction ###
-['15 min $50', 'half hr $70', 'full hr $100']
+['15', '$50', '$70', '$100']
 #########################
 ### cleaned ###
 [' 15 min $50 half hr $70 full hr $100 call  ']
 ### extraction ###
-['15 min $50', 'half hr $70', 'full hr $100']
+['15', '$50', '$70', '$100']
 #########################
 ### cleaned ###
 ['100 half hour', '150 hour']
 ### extraction ###
-['100 half hour', '150 hour']
+['100', '150']
 #########################
 ### cleaned ###
 ['60 half hour and 120 hour ']
 ### extraction ###
-['60 half hour', '120 hour']
+['60', '120']
 #########################
 ### cleaned ###
 ['1 hour 3000', '2 hour 5000']
 ### extraction ###
-['1 hour 3000', '2 hour 5000']
+['1', '3000', '2', '5000']
 #########################
 ### cleaned ###
 ['1 hour 3000 start']
 ### extraction ###
-['1 hour 3000']
+['1', '3000']
 #########################
 ### cleaned ###
 ['1 hour 250 euro']
 ### extraction ###
-['1 hour 250 euro']
+['1', '250 euro']
 #########################
 ### cleaned ###
 ['180euro 1 hour ']
 ### extraction ###
-['180euro 1 hour']
+['180euro', '1']
 #########################
 ### cleaned ###
 ['happy hour ']
@@ -388,92 +388,92 @@
 ### cleaned ###
 [' 100hh 200 hour']
 ### extraction ###
-['100hh', '200 hour']
+['100', '200']
 #########################
 ### cleaned ###
 ['', '250 hour']
 ### extraction ###
-['250 hour']
+['250']
 #########################
 ### cleaned ###
 ['', 'no outcall', 'half hour 100', 'hour 150']
 ### extraction ###
-['half hour 100', 'hour 150']
+['100', '150']
 #########################
 ### cleaned ###
 ['80 half hour 120 hour nessage me xoxo ']
 ### extraction ###
-['80 half hour', '120 hour']
+['80', '120']
 #########################
 ### cleaned ###
 ['100 half hour special', '175 hour', '', 'autumn']
 ### extraction ###
-['100 half hour', '175 hour']
+['100', '175']
 #########################
 ### cleaned ###
 ['work on 1 hour basis', '50 nuck 1 hour']
 ### extraction ###
-['1 hour', '50 nuck 1 hour']
+['1', '50 nuck', '1']
 #########################
 ### cleaned ###
 ['professional asian massage', '', '', '', '', '', 'half hour $40', '', '', '1 hour $60']
 ### extraction ###
-['half hour $40', '1 hour $60']
+['$40', '1', '$60']
 #########################
 ### cleaned ###
 ['top tran just for u', '100 half hour', '150 hour']
 ### extraction ###
-['100 half hour', '150 hour']
+['100', '150']
 #########################
 ### cleaned ###
 ['60 half hour', '115 hour ']
 ### extraction ###
-['60 half hour', '115 hour']
+['60', '115']
 #########################
 ### cleaned ###
 ['alouse', 'incall outcall', '1 hour 3000', '2 hour 5000']
 ### extraction ###
-['1 hour 3000', '2 hour 5000']
+['1', '3000', '2', '5000']
 #########################
 ### cleaned ###
 ['$80 for half hour or$200 for hour ']
 ### extraction ###
-['$80 for half hour', '$200 for hour']
+['$80', '$200']
 #########################
 ### cleaned ###
 ['100 half hour special', '175 hour', '', 'autumn']
 ### extraction ###
-['100 half hour', '175 hour']
+['100', '175']
 #########################
 ### cleaned ###
 ['60 half hour', '', '115 hour', '', '']
 ### extraction ###
-['60 half hour', '115 hour']
+['60', '115']
 #########################
 ### cleaned ###
 ['', 'no outcall', 'half hour 100', 'hour 150', 'slight texting']
 ### extraction ###
-['half hour 100', 'hour 150']
+['100', '150']
 #########################
 ### cleaned ###
 ['', 'no outcall', 'half hour 100', 'hour 150', 'ext ']
 ### extraction ###
-['half hour 100', 'hour 150']
+['100', '150']
 #########################
 ### cleaned ###
 ['asium', '', '', '', 'incall only', '', 'half hour 100$', '', 'hour 150$']
 ### extraction ###
-['half hour 100$', 'hour 150$']
+['100$', '150$']
 #########################
 ### cleaned ###
 ['', 'myapreggo', '100hh rose', '185h rose', 'donation']
 ### extraction ###
-['100hh', '185h']
+['100', '185']
 #########################
 ### cleaned ###
 ['myapreggo', '100hh rose', '185h rose', 'no a a', 'donation mya ']
 ### extraction ###
-['100hh', '185h']
+['100', '185']
 #########################
 ### cleaned ###
 ['lmao rose for daizee']
@@ -483,7 +483,7 @@
 ### cleaned ###
 ['sayuri', '', 'short stay 100 rose', 'hhr 140 rose', 'hr 240 rose']
 ### extraction ###
-['100 rose', 'hhr 140 rose', 'hr 240 rose']
+['100 rose', '140 rose', '240 rose']
 #########################
 ### cleaned ###
 ['special you get what you see 90 rose 100 rose 150 rose  call ']
@@ -493,62 +493,62 @@
 ### cleaned ###
 ['lilly', '', 'come visit me incall', 'qv 80 rose', '30minute 120 rose', 'hourly 180 rose', '', 'let meet outcall', 'hourly220', 'lilli ']
 ### extraction ###
-['qv 80 rose', '30minute 120 rose', 'hourly 180 rose', 'hourly220']
+['80 rose', '30', '120 rose', '180 rose', '220']
 #########################
 ### cleaned ###
 ['sayuri', '', '', '', 'well reviewed', '', 'real deal', '', 'short stay 100 rose', '', 'hhr 140 rose', '', 'hr 240 rose']
 ### extraction ###
-['100 rose', 'hhr 140 rose', 'hr 240 rose']
+['100 rose', '140 rose', '240 rose']
 #########################
 ### cleaned ###
 ['upscale gentleman san carlo private discreet 100 rose hh 140 rose 45 min $160 rose hr $240 rose 90 min $300 rose deluxe pkg 2 hr of pampering prostate massage $200 rose 10am 7pm after hr 7pm 12am 140 rose hh 180 rose 45min 200 rose hr 300 rose 90 min 350 rose 2 hr 400 hr rose cocktail shower relaxation fbsm hot towel hot oil hot st1 grown up time shower cocktail 420 friendly home setting', 'angelina', '', 'text call']
 ### extraction ###
-['100 rose hh', '140 rose 45 min', '$160 rose hr', '$240 rose 90 min', '2 hr', '140 rose hh', '180 rose 45min', '200 rose hr', '300 rose 90 min', '350 rose 2 hr', '400 hr']
+['100 rose', '140 rose', '45', '$160 rose', '$240 rose', '90', '$300 rose', '2', '$200 rose', '10', '7', '7', '12', '140 rose', '180 rose', '45', '200 rose', '300 rose', '90', '350 rose', '2', '400', '1', '420']
 #########################
 ### cleaned ###
 ['doing special today only', '100 rose qv', '150 rose hh', '', '', 'massage special clean only', '70 rose hh', '120 rose h', '', '', 'text only', '', '', '', 'xoxo skye']
 ### extraction ###
-['100 rose qv', '150 rose hh', '70 rose hh', '120 rose h']
+['100 rose', '150 rose', '70 rose', '120 rose']
 #########################
 ### cleaned ###
 ['incall only special on ss and hummer', '', 'hummer 60 rose', 'ss 80 rose', 'half 125 rose', 'hour 200 rose', '', 'jen', '']
 ### extraction ###
-['hummer 60 rose', 'ss 80 rose', 'half 125 rose', 'hour 200 rose']
+['60 rose', '80 rose', '125 rose', '200 rose']
 #########################
 ### cleaned ###
 ['new to town', 'name i princess', '', 'no time waster', '100$rose 30min qv', '200$rose 1hour']
 ### extraction ###
-['100$rose 30min', '200$rose 1hour']
+['100$rose', '30', '200$rose', '1']
 #########################
 ### cleaned ###
 ['hey i m candy looking for some fun', 'hh 100 rose hr 200 rose', '']
 ### extraction ###
-['hh 100 rose', 'hr 200 rose']
+['100 rose', '200 rose']
 #########################
 ### cleaned ###
 ['no law enforcement', 'in call', '30 90 rose', 'hh 180 rose', '']
 ### extraction ###
-['30 90 rose', 'hh 180 rose']
+['30', '90 rose', '180 rose']
 #########################
 ### cleaned ###
 ['30 min 150 rose 100 hr 200 rose just for 1 girl txt u outcall only']
 ### extraction ###
-['30 min 150 rose', '100 hr 200 rose']
+['30', '150 rose', '100', '200 rose', '1']
 #########################
 ### cleaned ###
 ['no law enforcement in call 30 90 rose hh 180 rose call  ']
 ### extraction ###
-['30 90 rose', 'hh 180 rose']
+['30', '90 rose', '180 rose']
 #########################
 ### cleaned ###
 ['60 rose 15min or less', '', '100 rose hhr or less', '', '', '', 'call me malium', '']
 ### extraction ###
-['60 rose 15min', '100 rose hhr']
+['60 rose', '15', '100 rose']
 #########################
 ### cleaned ###
 ['hey baby call me ', '100 rose 30 min', '150 rose full hour']
 ### extraction ###
-['100 rose 30 min', '150 rose full hour']
+['100 rose', '30', '150 rose']
 #########################
 ### cleaned ###
 ['no aa 180 rose 200 rose yoy get what you see call  ']
@@ -558,32 +558,32 @@
 ### cleaned ###
 ['in call only tall black guy no guy no guy  big room with lot of space 50 rose 15min 65 rose 25min 80 rose 30min 120 rose 45min 150 rose hr call  ']
 ### extraction ###
-['50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
+['50 rose', '15', '65 rose', '25', '80 rose', '30', '120 rose', '45', '150 rose']
 #########################
 ### cleaned ###
 ['you ll never know until you try it beautifully seductive and flirtatiousmagicalqueen 135lbsofchocolatebliss outcall only all natural 60 rose 15min', '85 rose 30min', '140 rose 45min', '200 rose hrprivatedance 35 rose 3songsnova ']
 ### extraction ###
-['60 rose 15min', '85 rose 30min', '140 rose 45min', '200 rose hr', '35 rose']
+['135', '60 rose', '15', '85 rose', '30', '140 rose', '45', '200 rose', '35 rose', '3']
 #########################
 ### cleaned ###
 ['gorgeou flirtatiou funsize seductive queen of chocolate heaven', 'i m everything you need and more allnatural', 'no negotiation', 'everythingupfront', 'outcall only60 rose 15min', '85 rose 30min', '130 rose 45min', '200 rose hr', 'privatedances35 rose 3song']
 ### extraction ###
-['60 rose 15min', '85 rose 30min', '130 rose 45min', '200 rose hr', '35 rose']
+['60 rose', '15', '85 rose', '30', '130 rose', '45', '200 rose', '35 rose', '3']
 #########################
 ### cleaned ###
 ['in call only tall black guy no guy', 'no guy', '', 'big room with lot of space', '50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
 ### extraction ###
-['50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
+['50 rose', '15', '65 rose', '25', '80 rose', '30', '120 rose', '45', '150 rose']
 #########################
 ### cleaned ###
 ['100 rose for half hour 200 rose for 1 hour 75 rose for 20 minute or less']
 ### extraction ###
-['100 rose for half hour', '200 rose for 1 hour', '75 rose for 20 minute']
+['100 rose', '200 rose', '1', '75 rose', '20']
 #########################
 ### cleaned ###
 ['15 minute 60 rose 30 minute 100 rose 1 hour 150 rose call me   im waiting for your call call  ']
 ### extraction ###
-['15 minute 60 rose', '30 minute 100 rose', '1 hour 150 rose']
+['15', '60 rose', '30', '100 rose', '1', '150 rose']
 #########################
 ### cleaned ###
 ['special you get what you see', '90 rose', '100 rose', '150 rose', '', 'see my menu of service on my profile before calling adult finder']
@@ -593,47 +593,47 @@
 ### cleaned ###
 ['come spend some time with the 1 and only alaina', 'qv 60 rose', 'hhr 100 rose', 'hr 140 rose', '', '', 'alaina']
 ### extraction ###
-['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
+['1', '60 rose', '100 rose', '140 rose']
 #########################
 ### cleaned ###
 ['come spend some time with the 1 and only alaina qv 60 rose hhr 100 rose hr 140 rose  alaina call ']
 ### extraction ###
-['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
+['1', '60 rose', '100 rose', '140 rose']
 #########################
 ### cleaned ###
 ['15 min 75 rose \r', '30 min 95 rose \r', '1 hour 120 rose \r', 'pic real \r', 'please read ad first \r', 'ask for kandy \r', '']
 ### extraction ###
-['15 min 75 rose', '30 min 95 rose', '1 hour 120 rose']
+['15', '75 rose', '30', '95 rose', '1', '120 rose']
 #########################
 ### cleaned ###
 ['good morning i m doing incall only gentleman i m quick 60 rose hhr 80 rose hour 120 rose unrushed and f service provided nonnegotiable donation ']
 ### extraction ###
-['60 rose hhr', '80 rose hour', '120 rose']
+['60 rose', '80 rose', '120 rose']
 #########################
 ### cleaned ###
 ['i m slim carmel looking for fun and plesure q v 80 rose donation half hour 130 rose 1hour 200 rose in call text only ']
 ### extraction ###
-['half hour 130 rose', '1hour 200 rose', '80 rose']
+['80 rose', '130 rose', '1', '200 rose']
 #########################
 ### cleaned ###
 ['milk chocolate remycome get a taste4 20 friendly very discreet special ss80 rose hh120 rose hr160 rose available now call ']
 ### extraction ###
-['ss80 rose', 'hh120 rose', 'hr160 rose']
+['4', '20', '80 rose', '120 rose', '160 rose']
 #########################
 ### cleaned ###
 ['lilly come visit me incall qv 80 rose 30minute 120 rose hourly 180 rose let meet outcall hourly200 lilli  call  ']
 ### extraction ###
-['qv 80 rose', '30minute 120 rose', 'hourly 180 rose', 'hourly200']
+['80 rose', '30', '120 rose', '180 rose', '200']
 #########################
 ### cleaned ###
 ['no law enforcement', 'no black man under 35 outcall only qv 80 rose', 'hh 100 rose', 'hr 160 rose', '', '', 'lala']
 ### extraction ###
-['qv 80 rose', 'hh 100 rose', 'hr 160 rose']
+['35', '80 rose', '100 rose', '160 rose']
 #########################
 ### cleaned ###
 ['come spend some time with the 1 and only alaina qv 60 rose hhr 100 rose hr 140 rose  alaina call  ']
 ### extraction ###
-['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
+['1', '60 rose', '100 rose', '140 rose']
 #########################
 ### cleaned ###
 ['lmao rose for daizee call  ']
@@ -643,17 +643,17 @@
 ### cleaned ###
 ['doing special today only 100 rose qv 150 rose hh massage special clean only 70 rose hh 120 rose h text only  xoxo skye call  ']
 ### extraction ###
-['100 rose qv', '150 rose hh', '70 rose hh', '120 rose h']
+['100 rose', '150 rose', '70 rose', '120 rose']
 #########################
 ### cleaned ###
 ['hello', '', 'my web site http www elite motion biz', 'message only 3', '', 'i would be grateful for your gift', '30 min 150 rose', '1 hour 250 rose', '2 hour 400 rose', 'overnight 1000 rose', '', 'looking forward to you', 'angelique']
 ### extraction ###
-['30 min 150 rose', '1 hour 250 rose', '2 hour 400 rose', '1000 rose']
+['3', '30', '150 rose', '1', '250 rose', '2', '400 rose', '1000 rose']
 #########################
 ### cleaned ###
 ['rose rose rose come pick ur fresh rose lola i waiting on ur call 45 gentleman safe inbound no texting we are on adult finder so000 you can find u all on there if you want sticky dolce']
 ### extraction ###
-[]
+['45', '000']
 #########################
 ### cleaned ###
 ['call me out call $pecial$ 100 rose ']
@@ -663,17 +663,17 @@
 ### cleaned ###
 ['donation $150hr $100 $60 qv']
 ### extraction ###
-['$150hr', '$60 qv']
+['$150', '$100 $', '60']
 #########################
 ### cleaned ###
 ['$  $ donation rate $100 ']
 ### extraction ###
-[]
+['$100']
 #########################
 ### cleaned ###
 ['  seriou caller only donation$', 'ss40 hh60', 'ss50 hh80 hr140 donation$ pretty fun', 'fetish friendly ']
 ### extraction ###
-['ss40', 'hh60', 'ss50', 'hh80', 'hr140 donation$']
+['40', '60', '50', '80', '140 donation$']
 #########################
 ### cleaned ###
 ['t halle ', 'www tshalleraven tumblr com', 'bodyrub 100 donation']
@@ -688,22 +688,22 @@
 ### cleaned ###
 [' special donation 60hh call me eli ']
 ### extraction ###
-['donation 60hh']
+['donation 60']
 #########################
 ### cleaned ###
 [' 5starexperience', '', 'incall donation', '15min50 20mins60 hhr80 hr120', ' lola']
 ### extraction ###
-['15min', '50 20min', '60 hhr', '80 hr']
+['5', '15', '50', '20', '60', '80', '120']
 #########################
 ### cleaned ###
 ['  100 donation available 24 7 call  ']
 ### extraction ###
-['100 donation']
+['100 donation', '24', '7']
 #########################
 ### cleaned ###
 ['$  $ donation rate 120incall 140outcall ']
 ### extraction ###
-[]
+['120', '140']
 #########################
 ### cleaned ###
 ['25 rose donation for qv hmu asap', '']
@@ -713,14 +713,14 @@
 ### cleaned ###
 ['outcall only', '', 'no endless texting', '', '2 girl special $300 donation', '', '130hh 230h donation', '', 'no black man', '', '']
 ### extraction ###
-['300 donation', '130hh', '230h']
+['2', '$300 donation', '130', '230']
 #########################
 ### cleaned ###
 ['young sweet n fun 23 year old middle eastern besuty in orange', '', '200 rose donation for hr', '100 rose donation for hh', '70 rose donation fot qq', '', '']
 ### extraction ###
-['200 rose', '100 rose', '70 rose']
+['23', '200 rose', '100 rose', '70 rose']
 #########################
 ### cleaned ###
 ['tired of the c nt game the girl that complain well im not leaving until your sleeping in a c m stain incall $160 hh donation $260 hour donation outcall start at $280 donation cat ']
 ### extraction ###
-['$160 hh', '$260 hour', '$280 donation']
+['$160', '$260', '$280 donation']

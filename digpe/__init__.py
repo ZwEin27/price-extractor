@@ -2,8 +2,11 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 11:29:35
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-01 13:18:11
+# @Last Modified time: 2016-07-05 20:23:53
 
+from digpe.preprocessor import Preprocessor
+from digpe.extractor import Extractor
+from digpe.normalizer import Normalizer
 
 
 class DIGPE():
@@ -13,10 +16,20 @@ class DIGPE():
         self.extractor = Extractor()
         self.normalizer = Normalizer()
 
-    def clean(self, text):
-        pass
 
     def extract(self, text):
-        pass
+        cleaned_text_list = self.preprocessor.preprocess(text)
+        extracted_text_list = self.extractor.extract_from_list(cleaned_text_list)
+        normalized_text_list = self.normalizer.normalize_from_list(extracted_text_list)
+
+        ans = []
+        for normalized in normalized_text_list:
+            if not normalized['time_unit'] or normalized['time_unit'] == '' or normalized['time_unit'] in UNIT_TIME_HOUR:
+                ans.append(normalized)
+        return ans
+
+
+    def extract_from_list(self, text_list):
+        return [self.extract(text) for text in text_list]
 
 

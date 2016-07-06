@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:56
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-04 15:54:25
+# @Last Modified time: 2016-07-05 20:21:36
 
 import re
 from unit import *
@@ -51,12 +51,14 @@ class Normalizer():
         if price_unit:
             price_unit = price_unit.group(0)
 
-
         ht = {}
         ht['price'] = price
         ht['price_unit'] = price_unit
         ht['time_unit'] = time_unit
         return ht
+
+
+
 
     def normalize_from_list(self, text_list):
         return [self.normalize(text) for text in text_list]
@@ -66,7 +68,8 @@ class Normalizer():
 if __name__ == '__main__':
     # text = 'half hour 100'
     # text = '45 min 400 rose'
-    text = '80 hh'
+    # text = '80 hh'
+    text = '120 rose h'
     normalizer = Normalizer()
     print normalizer.normalize(text)
 
