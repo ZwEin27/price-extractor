@@ -1600,9 +1600,9 @@ Donation 80 outcalls tonight only 5204093657.Call  520-409-3657 .
 ### cleaned ###
 [' 5starexperience', '', 'incall donation', '15min50 20mins60 hhr80 hr120', ' lola']
 ### extracted ###
-['15min', '50 20min', '60 hhr', '80 hr']
+['15min50', 'mins60', 'hhr80', 'hr120']
 ### normalized ###
-[{'price': '15', 'price_unit': '', 'time_unit': 'min'}, {'price': '50', 'price_unit': '', 'time_unit': '20min'}, {'price': '60', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '80', 'price_unit': '', 'time_unit': 'hr'}]
+[{'price': '50', 'price_unit': '', 'time_unit': '15min'}, {'price': '60', 'price_unit': '', 'time_unit': 'mins'}, {'price': '80', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '120', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 ##9372048889## 100 Donation Available 24/7.Call  937-204-8889 .

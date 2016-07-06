@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:56
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 22:37:16
+# @Last Modified time: 2016-07-05 23:42:42
 
 import re
 from unit import *
@@ -28,29 +28,29 @@ class Normalizer():
         time_unit = ''
 
         if len(Normalizer.re_digits.findall(text)) == 2:
-            time_unit = Normalizer.re_time_unit.search(text)
-            if time_unit:
-                time_unit = time_unit.group(0)
+            tunit = Normalizer.re_time_unit.search(text)
+            if tunit:
+                time_unit = tunit.group(0)
 
                 text = Normalizer.re_time_unit.sub('', text)
 
-            price = Normalizer.re_digits.search(text)
-            if price:
-                price = price.group(0)
+            p = Normalizer.re_digits.search(text)
+            if p:
+                price = p.group(0)
 
         else:
-            price = Normalizer.re_digits.search(text)
-            if price:
-                price = price.group(0)
+            p = Normalizer.re_digits.search(text)
+            if p:
+                price = p.group(0)
                 text = Normalizer.re_digits.sub('', text)
 
-            time_unit = Normalizer.re_time_unit.search(text)
-            if time_unit:
-                time_unit = time_unit.group(0)
+            tunit = Normalizer.re_time_unit.search(text)
+            if tunit:
+                time_unit = tunit.group(0)
                 
-        price_unit_ext = Normalizer.re_price_unit.search(text)
-        if price_unit_ext:
-            price_unit = price_unit_ext.group(0)
+        punit = Normalizer.re_price_unit.search(text)
+        if punit:
+            price_unit = punit.group(0)
 
         ht = {}
         ht['price'] = price

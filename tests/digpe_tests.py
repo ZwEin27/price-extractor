@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 15:05:04
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 21:40:41
+# @Last Modified time: 2016-07-05 23:39:57
 
 
 import sys
@@ -53,7 +53,7 @@ class TestDIGPEMethods(unittest.TestCase):
             text = data['text']
             ext_gt = data['extraction']
             ext_pd = self.digpe.extract(text)
-
+            
             if cmp_digpe_ext(ext_gt, ext_pd):
                 correct += 1
             else:
