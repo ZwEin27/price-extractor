@@ -7,7 +7,7 @@
 ### extracted ###
 ['50$ss', '70$hh']
 ### normalized ###
-[]
+[{'price': '50', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '70', 'price_unit': '$', 'time_unit': 'hh'}]
 #########################
 ### original ###
 Camila hh 120 strip
@@ -16,7 +16,7 @@ Camila hh 120 strip
 ### extracted ###
 ['hh 120']
 ### normalized ###
-[]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hh'}]
 #########################
 ### original ###
 92535l4849.80/hh.150/hr.
@@ -25,7 +25,7 @@ Camila hh 120 strip
 ### extracted ###
 ['80 hh', '150 hr']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '80', 'price_unit': '', 'time_unit': 'hh'}, {'price': '150', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 120 hh 220hr 2265670918
@@ -34,7 +34,7 @@ Camila hh 120 strip
 ### extracted ###
 ['120 hh', '220hr']
 ### normalized ###
-[{'price': '220', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hh'}, {'price': '220', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 ?Incall? 
@@ -50,7 +50,7 @@ Hh-?160
 ### extracted ###
 ['qk 60', 'hh 100', 'qk 120', 'hh 160']
 ### normalized ###
-[]
+[{'price': '60', 'price_unit': '', 'time_unit': 'qk'}, {'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '120', 'price_unit': '', 'time_unit': 'qk'}, {'price': '160', 'price_unit': '', 'time_unit': 'hh'}]
 #########################
 ### original ###
 50$ss 70$hh 248-818-3375
@@ -59,7 +59,7 @@ Hh-?160
 ### extracted ###
 ['50$ss', '70$hh']
 ### normalized ###
-[]
+[{'price': '50', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '70', 'price_unit': '$', 'time_unit': 'hh'}]
 #########################
 ### original ###
 100/qs 
@@ -70,7 +70,7 @@ Hh-?160
 ### extracted ###
 ['100 q', '150 hh', '250 h']
 ### normalized ###
-[{'price': '250', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'q'}, {'price': '150', 'price_unit': '', 'time_unit': 'hh'}, {'price': '250', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 Madison 3163129511 
@@ -82,7 +82,7 @@ Madison 3163129511
 ### extracted ###
 ['120 hh', '200 fh']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'fh'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'fh'}]
 #########################
 ### original ###
 40$ss 65$hh 248-818-3375
@@ -91,7 +91,7 @@ Madison 3163129511
 ### extracted ###
 ['40$ss', '65$hh']
 ### normalized ###
-[]
+[{'price': '40', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hh'}]
 #########################
 ### original ###
 ?100candies hh 
@@ -108,7 +108,7 @@ Madison 3163129511
 ### extracted ###
 ['100candy hh', '150candy hh', '250candy hh']
 ### normalized ###
-[]
+[{'price': '100', 'price_unit': 'candy', 'time_unit': 'hh'}, {'price': '150', 'price_unit': 'candy', 'time_unit': 'hh'}, {'price': '250', 'price_unit': 'candy', 'time_unit': 'hh'}]
 #########################
 ### original ###
 Avail now 120 hh 200 hr 7054174691
@@ -117,7 +117,7 @@ Avail now 120 hh 200 hr 7054174691
 ### extracted ###
 ['120 hh', '200 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Weekend special 60 hh 100 hr
@@ -126,7 +126,7 @@ Weekend special 60 hh 100 hr
 ### extracted ###
 ['60 hh', '100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '60', 'price_unit': '', 'time_unit': 'hh'}, {'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Call me  
@@ -137,7 +137,7 @@ Call me
 ### extracted ###
 ['150 hh', '250 hr']
 ### normalized ###
-[{'price': '250', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '150', 'price_unit': '', 'time_unit': 'hh'}, {'price': '250', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Super tuesday special 120 hh 200h
@@ -146,7 +146,7 @@ Super tuesday special 120 hh 200h
 ### extracted ###
 ['120 hh', '200h']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 Sexy Cubanita (305)560.1133 $120 hh $160hour
@@ -155,7 +155,7 @@ Sexy Cubanita (305)560.1133 $120 hh $160hour
 ### extracted ###
 ['$120 hh', '$160hour']
 ### normalized ###
-[{'price': '160', 'price_unit': '$', 'time_unit': 'hour'}]
+[{'price': '120', 'price_unit': '$', 'time_unit': 'hh'}, {'price': '160', 'price_unit': '$', 'time_unit': 'hour'}]
 #########################
 ### original ###
 60'HH ? 
@@ -168,7 +168,7 @@ Clean ?
 ### extracted ###
 ['60 hh']
 ### normalized ###
-[]
+[{'price': '60', 'price_unit': '', 'time_unit': 'hh'}]
 #########################
 ### original ###
 Early morning special hh 60 incall 3524261368
@@ -177,7 +177,7 @@ Early morning special hh 60 incall 3524261368
 ### extracted ###
 ['hh 60']
 ### normalized ###
-[]
+[{'price': '60', 'price_unit': '', 'time_unit': 'hh'}]
 #########################
 ### original ###
 jazz 
@@ -193,7 +193,7 @@ jazz
 ### extracted ###
 ['100 hh', '150 h']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '150', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 40$Ss 65$hh 248-818-3375
@@ -202,7 +202,7 @@ jazz
 ### extracted ###
 ['40$ss', '65$hh']
 ### normalized ###
-[]
+[{'price': '40', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hh'}]
 #########################
 ### original ###
 248-818-3375 45$ss 65$hh
@@ -211,7 +211,7 @@ jazz
 ### extracted ###
 ['45$ss', '65$hh']
 ### normalized ###
-[]
+[{'price': '45', 'price_unit': '$', 'time_unit': 'ss'}, {'price': '65', 'price_unit': '$', 'time_unit': 'hh'}]
 #########################
 ### original ###
 Sexy Cubanita (305)560.1133 $120 hh $160hour
@@ -220,7 +220,7 @@ Sexy Cubanita (305)560.1133 $120 hh $160hour
 ### extracted ###
 ['$120 hh', '$160hour']
 ### normalized ###
-[{'price': '160', 'price_unit': '$', 'time_unit': 'hour'}]
+[{'price': '120', 'price_unit': '$', 'time_unit': 'hh'}, {'price': '160', 'price_unit': '$', 'time_unit': 'hour'}]
 #########################
 ### original ###
 150 hh
@@ -231,7 +231,7 @@ Text 2176201204
 ### extracted ###
 ['150 hh', '250 hr']
 ### normalized ###
-[{'price': '250', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '150', 'price_unit': '', 'time_unit': 'hh'}, {'price': '250', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Hh ss 347892737z e r o
@@ -252,7 +252,7 @@ Madison 3163129511
 ### extracted ###
 ['120 hh', '200 fh']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'fh'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'fh'}]
 #########################
 ### original ###
 6464393089lovely treat. 100ss. 150 hh 200 hr
@@ -261,7 +261,7 @@ Madison 3163129511
 ### extracted ###
 ['100ss', '150 hh', '200 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'ss'}, {'price': '150', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 5026194180
@@ -273,7 +273,7 @@ Hr 140
 ### extracted ###
 ['qv 80', 'hh 100', 'hr 140']
 ### normalized ###
-[{'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '80', 'price_unit': '', 'time_unit': 'qv'}, {'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '140', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 ?Incall? 
@@ -290,7 +290,7 @@ H-?200
 ### extracted ###
 ['qk 70', 'hh 95', 'h 160', 'qk 120', 'hh 160', 'h 200']
 ### normalized ###
-[{'price': '160', 'price_unit': None, 'time_unit': 'h'}, {'price': '200', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '70', 'price_unit': '', 'time_unit': 'qk'}, {'price': '95', 'price_unit': '', 'time_unit': 'hh'}, {'price': '160', 'price_unit': '', 'time_unit': 'h'}, {'price': '120', 'price_unit': '', 'time_unit': 'qk'}, {'price': '160', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 Jasmine 
@@ -302,7 +302,7 @@ Hr 150
 ### extracted ###
 ['hf hr 120', 'hr 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hf hr'}, {'price': '150', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 2543075506  
@@ -313,7 +313,7 @@ Hr 150
 ### extracted ###
 ['80 half hr', '120 full hr']
 ### normalized ###
-[{'price': '120', 'price_unit': None, 'time_unit': 'full hr'}]
+[{'price': '80', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '120', 'price_unit': '', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 Hr 140 half 100
@@ -322,7 +322,7 @@ Hr 140 half 100
 ### extracted ###
 ['hr 140', 'half 100']
 ### normalized ###
-[{'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '140', 'price_unit': '', 'time_unit': 'hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'half'}]
 #########################
 ### original ###
 Camila hr 95 strip
@@ -331,7 +331,7 @@ Camila hr 95 strip
 ### extracted ###
 ['hr 95']
 ### normalized ###
-[{'price': '95', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '95', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Hmu 100 hr 9038419603
@@ -340,7 +340,7 @@ Hmu 100 hr 9038419603
 ### extracted ###
 ['100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Call LA LA 3134548167 
@@ -351,7 +351,7 @@ Call LA LA 3134548167
 ### extracted ###
 ['60 half hr', '100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '60', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 55 half hr 
@@ -362,7 +362,7 @@ Call LA LA 3134548167
 ### extracted ###
 ['55 half hr', '100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '55', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 (7162792989) 
@@ -372,7 +372,7 @@ HHR 100 HR 150
 ### extracted ###
 ['hhr 100', 'hr 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '150', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Karla hhr 130 hr 150
@@ -381,7 +381,7 @@ Karla hhr 130 hr 150
 ### extracted ###
 ['hhr 130', 'hr 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '130', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '150', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Camila hr 95 strip sesions
@@ -390,7 +390,7 @@ Camila hr 95 strip sesions
 ### extracted ###
 ['hr 95']
 ### normalized ###
-[{'price': '95', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '95', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 $300/hr  
@@ -408,7 +408,7 @@ RIMMING ON ME
 ### extracted ###
 ['$300 hr', '$250 hr', '$200 half hr']
 ### normalized ###
-[{'price': '300', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '250', 'price_unit': '$', 'time_unit': 'hr'}]
+[{'price': '300', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '250', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '200', 'price_unit': '$', 'time_unit': 'half hr'}]
 #########################
 ### original ###
 Come explore your wild side with us! 
@@ -424,9 +424,9 @@ Available as a couple or singularly.
 ### cleaned ###
 ['come explore your wild side with u', 'available a a couple or singularly', '', '', 'antoniochase21 gmail com', '', '1 hr $350 for both', '1 hr $175 for male', '2 hr $550 2 hr both', '2 hr $250 2 hr male']
 ### extracted ###
-['1 hr $350', '1 hr $175', '2 hr', '$550 2 hr', '2 hr', '$250 2 hr']
+['1 hr $350', '1 hr $175', '$550 2 hr', '$250 2 hr']
 ### normalized ###
-[{'price': '2', 'price_unit': None, 'time_unit': 'hr'}, {'price': '550', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '2', 'price_unit': None, 'time_unit': 'hr'}, {'price': '250', 'price_unit': '$', 'time_unit': 'hr'}]
+[{'price': '350', 'price_unit': '$', 'time_unit': '1 hr'}, {'price': '175', 'price_unit': '$', 'time_unit': '1 hr'}, {'price': '550', 'price_unit': '$', 'time_unit': '2 hr'}, {'price': '250', 'price_unit': '$', 'time_unit': '2 hr'}]
 #########################
 ### original ###
 125/hhr 175/hr 312929729three Autumn
@@ -435,7 +435,7 @@ Available as a couple or singularly.
 ### extracted ###
 ['125 hhr', '175 hr']
 ### normalized ###
-[{'price': '175', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '125', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '175', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Today avail 
@@ -448,7 +448,7 @@ Today avail
 ### extracted ###
 ['300 hr']
 ### normalized ###
-[{'price': '300', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '300', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Ask for photos 
@@ -470,7 +470,7 @@ $250/hr
 ### extracted ###
 ['100ss', '150 hh', '200 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'ss'}, {'price': '150', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Bodywork $50/HR ($65/HR original) Table Shower & Body Scrub+Bodywork $60/HR (before 3pm) 4 Hands Special $99/HR(including free table shower) Call 212 206 0200
@@ -489,7 +489,7 @@ Incalls 70 half hr. 120 hr, outcalls start at 140 per hr
 ### extracted ###
 ['70 half hr', '120 hr', '140 1 hr']
 ### normalized ###
-[{'price': '120', 'price_unit': None, 'time_unit': 'hr'}, {'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '70', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '120', 'price_unit': '', 'time_unit': 'hr'}, {'price': '140', 'price_unit': '', 'time_unit': '1 hr'}]
 #########################
 ### original ###
 Karla , Sonja hhr 95 hr 160
@@ -498,7 +498,7 @@ Karla , Sonja hhr 95 hr 160
 ### extracted ###
 ['hhr 95', 'hr 160']
 ### normalized ###
-[{'price': '160', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '95', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '160', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 100 hh  
@@ -510,7 +510,7 @@ Karla , Sonja hhr 95 hr 160
 ### extracted ###
 ['100 hh', '160 hr']
 ### normalized ###
-[{'price': '160', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '160', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 30 min $120 Hr$140 
@@ -521,7 +521,7 @@ Karla , Sonja hhr 95 hr 160
 ### extracted ###
 ['30 min $120', 'hr$140']
 ### normalized ###
-[{'price': '140', 'price_unit': '$', 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '$', 'time_unit': '30 min'}, {'price': '140', 'price_unit': '$', 'time_unit': 'hr'}]
 #########################
 ### original ###
 100HALF HOUR special! 175/hr  312929729three  Autumn
@@ -530,7 +530,7 @@ Karla , Sonja hhr 95 hr 160
 ### extracted ###
 ['100half hour', '175 hr']
 ### normalized ###
-[{'price': '175', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '175', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 6464393089lovely treat. 100ss. 150 hh 200 hr
@@ -539,7 +539,7 @@ Karla , Sonja hhr 95 hr 160
 ### extracted ###
 ['100ss', '150 hh', '200 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'ss'}, {'price': '150', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 5026194180
@@ -551,7 +551,7 @@ Hr 140
 ### extracted ###
 ['qv 80', 'hh 100', 'hr 140']
 ### normalized ###
-[{'price': '140', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '80', 'price_unit': '', 'time_unit': 'qv'}, {'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '140', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Beautiful, Exotic, Voluptuous (Incalls & Outcalls) 
@@ -564,7 +564,7 @@ Beautiful, Exotic, Voluptuous (Incalls & Outcalls)
 ### extracted ###
 ['200 hr', '300 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '300', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '200', 'price_unit': '', 'time_unit': 'hr'}, {'price': '300', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Thanksgiving out call, blonde model 
@@ -579,7 +579,7 @@ Thanksgiving out call, blonde model
 ### extracted ###
 ['180 h hr', '240 hr']
 ### normalized ###
-[{'price': '240', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '180', 'price_unit': '', 'time_unit': 'h hr'}, {'price': '240', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Incall full service  
@@ -592,7 +592,7 @@ Call me ??0406950770
 ### extracted ###
 ['120 hf', '200 hr', '350 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hf'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}, {'price': '350', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Sexy clean std free female escort  
@@ -609,7 +609,7 @@ Laurina 4192060160
 ### extracted ###
 ['75 half hr', '125 hr']
 ### normalized ###
-[{'price': '125', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '75', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '125', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 MsToni 5179621317 
@@ -623,7 +623,7 @@ Also two girls special
 ### extracted ###
 ['hlf hr 50', 'full hr 100']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'full hr'}]
+[{'price': '50', 'price_unit': '', 'time_unit': 'hlf hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 $300/hr after midday $250/hr before midday 
@@ -648,7 +648,7 @@ CALL DONT TEXT BLU3134548167
 ### extracted ###
 ['25 for 10 min', '55 half hr', '100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '25', 'price_unit': '', 'time_unit': '10 min'}, {'price': '55', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 216-374-1451<br>
@@ -661,7 +661,7 @@ Full hr $100
 ### extracted ###
 ['15 min $50', 'half hr $70', 'full hr $100']
 ### normalized ###
-[{'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 Incall  
@@ -675,7 +675,7 @@ Call me:0426946822
 ### extracted ###
 ['120 hf', '200 hr', '350 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hf'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}, {'price': '350', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 My service very good.?? 
@@ -687,7 +687,7 @@ Call me ??0426288618
 ### extracted ###
 ['120 hf', '200 hr', '350 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hf'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}, {'price': '350', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 ?216-374-1451 
@@ -700,7 +700,7 @@ Call me ??0426288618
 ### extracted ###
 ['15 min $50', 'half hr $70', 'full hr $100']
 ### normalized ###
-[{'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 216-374-1451
@@ -713,7 +713,7 @@ Full hr $100
 ### extracted ###
 ['15 min $50', 'half hr $70', 'full hr $100']
 ### normalized ###
-[{'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 Incall full service  
@@ -726,7 +726,7 @@ Call me :0426946822
 ### extracted ###
 ['120 hf', '200 hr', '250 hf', '350 hr']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hr'}, {'price': '350', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '120', 'price_unit': '', 'time_unit': 'hf'}, {'price': '200', 'price_unit': '', 'time_unit': 'hr'}, {'price': '250', 'price_unit': '', 'time_unit': 'hf'}, {'price': '350', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 young girl looking for company 
@@ -740,7 +740,7 @@ hosting
 ### extracted ###
 ['half hr 100$', 'hr 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '150', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 614-972-9624 75-hlf hr 100 hr questions in person- clean cut professional calls only
@@ -749,7 +749,7 @@ hosting
 ### extracted ###
 ['75 hlf hr', '100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '75', 'price_unit': '', 'time_unit': 'hlf hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Call me baby I'm waiting on you 3134548167 
@@ -762,7 +762,7 @@ Call me baby I'm waiting on you 3134548167
 ### extracted ###
 ['25 10 minute', '60 half hr', '100 hr']
 ### normalized ###
-[{'price': '100', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '25', 'price_unit': '', 'time_unit': '10 minute'}, {'price': '60', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 NEW CBD Sexy Beautiful fit body Naughty  150 half hr 250 hr Extras available
@@ -771,7 +771,7 @@ NEW CBD Sexy Beautiful fit body Naughty  150 half hr 250 hr Extras available
 ### extracted ###
 ['150 half hr', '250 hr']
 ### normalized ###
-[{'price': '250', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '150', 'price_unit': '', 'time_unit': 'half hr'}, {'price': '250', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 15 min $50 
@@ -783,7 +783,7 @@ Call Or Text 248-277-5305
 ### extracted ###
 ['15 min $50', 'half hr $70', 'full hr $100']
 ### normalized ###
-[{'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 216'374-1451 15 min $50 Half hr $70 Full hr $100.Call  216-374-1451 .
@@ -792,7 +792,7 @@ Call Or Text 248-277-5305
 ### extracted ###
 ['15 min $50', 'half hr $70', 'full hr $100']
 ### normalized ###
-[{'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
+[{'price': '50', 'price_unit': '$', 'time_unit': '15 min'}, {'price': '70', 'price_unit': '$', 'time_unit': 'half hr'}, {'price': '100', 'price_unit': '$', 'time_unit': 'full hr'}]
 #########################
 ### original ###
 100 half hour 
@@ -802,7 +802,7 @@ Call Or Text 248-277-5305
 ### extracted ###
 ['100 half hour', '150 hour']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 60 half hour and 120 hour 0220436093
@@ -811,7 +811,7 @@ Call Or Text 248-277-5305
 ### extracted ###
 ['60 half hour', '120 hour']
 ### normalized ###
-[{'price': '120', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '60', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '120', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 1 hour 3000 
@@ -821,7 +821,7 @@ Call Or Text 248-277-5305
 ### extracted ###
 ['1 hour 3000', '2 hour 5000']
 ### normalized ###
-[]
+[{'price': '3000', 'price_unit': '', 'time_unit': '1 hour'}, {'price': '5000', 'price_unit': '', 'time_unit': '2 hour'}]
 #########################
 ### original ###
 Per hour 3000 start
@@ -830,7 +830,7 @@ Per hour 3000 start
 ### extracted ###
 ['1 hour 3000']
 ### normalized ###
-[]
+[{'price': '3000', 'price_unit': '', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 1 HOUR 250 EURO
@@ -839,7 +839,7 @@ Per hour 3000 start
 ### extracted ###
 ['1 hour 250 euro']
 ### normalized ###
-[]
+[{'price': '250', 'price_unit': 'euro', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 180euro 1 hour! ?????+????? ?????????? ????????? ??? ???!!! ?? ??? ????? ??? ?????????? ???????? ??? ??????!... 6986274039
@@ -848,7 +848,7 @@ Per hour 3000 start
 ### extracted ###
 ['180euro 1 hour']
 ### normalized ###
-[{'price': '180', 'price_unit': 'euro', 'time_unit': 'hour'}]
+[{'price': '180', 'price_unit': 'euro', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 Happy Hour 9048948750
@@ -866,7 +866,7 @@ Happy Hour 9048948750
 ### extracted ###
 ['100hh', '200 hour']
 ### normalized ###
-[{'price': '200', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '200', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 9168720545 
@@ -876,7 +876,7 @@ Happy Hour 9048948750
 ### extracted ###
 ['250 hour']
 ### normalized ###
-[{'price': '250', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '250', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 4439738663 
@@ -888,7 +888,7 @@ Hour 150
 ### extracted ###
 ['half hour 100', 'hour 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 80 half hour 120 hour nessage me xoxo 0220436093
@@ -897,7 +897,7 @@ Hour 150
 ### extracted ###
 ['80 half hour', '120 hour']
 ### normalized ###
-[{'price': '120', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '80', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '120', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 100 half hour special 
@@ -909,7 +909,7 @@ Autumn
 ### extracted ###
 ['100 half hour', '175 hour']
 ### normalized ###
-[{'price': '175', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '175', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 Work on per hour basis 
@@ -917,9 +917,9 @@ Work on per hour basis
 ### cleaned ###
 ['work on 1 hour basis', '50 nuck 1 hour']
 ### extracted ###
-['1 hour', '50 nuck 1 hour']
+['50 nuck 1 hour']
 ### normalized ###
-[{'price': '1', 'price_unit': None, 'time_unit': 'hour'}, {'price': '50', 'price_unit': 'nuck', 'time_unit': 'hour'}]
+[{'price': '50', 'price_unit': 'nuck', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 Professional Asian massage 
@@ -937,7 +937,7 @@ One hour.        $60
 ### extracted ###
 ['half hour $40', '1 hour $60']
 ### normalized ###
-[]
+[{'price': '40', 'price_unit': '$', 'time_unit': 'half hour'}, {'price': '60', 'price_unit': '$', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 Top trans just for u :)  
@@ -948,7 +948,7 @@ Top trans just for u :)
 ### extracted ###
 ['100 half hour', '150 hour']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 60 half hour
@@ -958,7 +958,7 @@ Top trans just for u :)
 ### extracted ###
 ['60 half hour', '115 hour']
 ### normalized ###
-[{'price': '115', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '60', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '115', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 Alice 
@@ -970,7 +970,7 @@ Incall/Outcall
 ### extracted ###
 ['1 hour 3000', '2 hour 5000']
 ### normalized ###
-[]
+[{'price': '3000', 'price_unit': '', 'time_unit': '1 hour'}, {'price': '5000', 'price_unit': '', 'time_unit': '2 hour'}]
 #########################
 ### original ###
 $80 for half hour or$200 for hour 5024071135
@@ -979,7 +979,7 @@ $80 for half hour or$200 for hour 5024071135
 ### extracted ###
 ['$80 for half hour', '$200 for hour']
 ### normalized ###
-[{'price': '200', 'price_unit': '$', 'time_unit': 'hour'}]
+[{'price': '80', 'price_unit': '$', 'time_unit': 'half hour'}, {'price': '200', 'price_unit': '$', 'time_unit': 'hour'}]
 #########################
 ### original ###
 100 half hour special 
@@ -991,7 +991,7 @@ Autumn
 ### extracted ###
 ['100 half hour', '175 hour']
 ### normalized ###
-[{'price': '175', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '175', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 60 half hour
@@ -1004,7 +1004,7 @@ Autumn
 ### extracted ###
 ['60 half hour', '115 hour']
 ### normalized ###
-[{'price': '115', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '60', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '115', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 443.973.8663 
@@ -1017,7 +1017,7 @@ Slight texting
 ### extracted ###
 ['half hour 100', 'hour 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 443.973.8663 
@@ -1030,7 +1030,7 @@ Ext.
 ### extracted ###
 ['half hour 100', 'hour 150']
 ### normalized ###
-[{'price': '150', 'price_unit': None, 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '', 'time_unit': 'hour'}]
 #########################
 ### original ###
 Asia  
@@ -1047,7 +1047,7 @@ hour 150$
 ### extracted ###
 ['half hour 100$', 'hour 150$']
 ### normalized ###
-[{'price': '150', 'price_unit': '$', 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '$', 'time_unit': 'half hour'}, {'price': '150', 'price_unit': '$', 'time_unit': 'hour'}]
 #########################
 ### original ###
 7132833419 
@@ -1060,7 +1060,7 @@ Donations
 ### extracted ###
 ['100hh', '185h']
 ### normalized ###
-[{'price': '185', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '185', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 Myapreggo 
@@ -1073,7 +1073,7 @@ Donations mya 7132833419
 ### extracted ###
 ['100hh', '185h']
 ### normalized ###
-[{'price': '185', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '100', 'price_unit': '', 'time_unit': 'hh'}, {'price': '185', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 Lmao 3618763539...roses for daizee
@@ -1095,7 +1095,7 @@ Hr 240 roses
 ### extracted ###
 ['100 rose', 'hhr 140 rose', 'hr 240 rose']
 ### normalized ###
-[{'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '240', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '240', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Specials you get what you see 90 roses 100 roses 150 roses 8328743763 8328743763.Call  832-874-3763
@@ -1122,7 +1122,7 @@ Hourly220
 ### extracted ###
 ['qv 80 rose', '30minute 120 rose', 'hourly 180 rose', 'hourly220']
 ### normalized ###
-[{'price': '180', 'price_unit': 'rose', 'time_unit': 'hourly'}, {'price': '220', 'price_unit': None, 'time_unit': 'hourly'}]
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '30minute'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hourly'}, {'price': '220', 'price_unit': '', 'time_unit': 'hourly'}]
 #########################
 ### original ###
 Sayuri 
@@ -1143,7 +1143,7 @@ Hr 240 roses
 ### extracted ###
 ['100 rose', 'hhr 140 rose', 'hr 240 rose']
 ### normalized ###
-[{'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '240', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': None}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '240', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Upscale  gentlemen - San Carlos  private discreet    100 roses--hh,   140 roses-45 min   $160 roses-hr   $240 roses-90 min     $300 roses -Deluxe Pkg- 2 hrs of Pampering;    Prostate Massage- $200 roses.  10am-7pm.  After hrs-7pm-12am   140 roses hh, 180 roses-45min, 200 roses hr, 300 roses 90 min, 350 roses  2 hrs   400/hr roses  .cocktail, shower,relaxation.  FBSM/ Hot towels/Hot Oil/Hot Stones/ Grown up time!   Showers/Cocktails/420 Friendly home setting.
@@ -1153,9 +1153,9 @@ text/call
 ### cleaned ###
 ['upscale gentleman san carlo private discreet 100 rose hh 140 rose 45 min $160 rose hr $240 rose 90 min $300 rose deluxe pkg 2 hr of pampering prostate massage $200 rose 10am 7pm after hr 7pm 12am 140 rose hh 180 rose 45min 200 rose hr 300 rose 90 min 350 rose 2 hr 400 hr rose cocktail shower relaxation fbsm hot towel hot oil hot st1 grown up time shower cocktail 420 friendly home setting', 'angelina', '', 'text call']
 ### extracted ###
-['100 rose hh', '140 rose 45 min', '$160 rose hr', '$240 rose 90 min', '2 hr', '140 rose hh', '180 rose 45min', '200 rose hr', '300 rose 90 min', '350 rose 2 hr', '400 hr']
+['100 rose hh', '140 rose 45 min', '$160 rose hr', '$240 rose 90 min', '140 rose hh', '180 rose 45min', '200 rose hr', '300 rose 90 min', '350 rose 2 hr', '400 hr']
 ### normalized ###
-[{'price': '160', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '2', 'price_unit': None, 'time_unit': 'hr'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '350', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '400', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '140', 'price_unit': 'rose', 'time_unit': '45 min'}, {'price': '160', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '240', 'price_unit': '$', 'time_unit': '90 min'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '180', 'price_unit': 'rose', 'time_unit': '45min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '300', 'price_unit': 'rose', 'time_unit': '90 min'}, {'price': '350', 'price_unit': 'rose', 'time_unit': '2 hr'}, {'price': '400', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Doing specials TODAY only. 
@@ -1178,7 +1178,7 @@ xoxo Skye
 ### extracted ###
 ['100 rose qv', '150 rose hh', '70 rose hh', '120 rose h']
 ### normalized ###
-[{'price': '120', 'price_unit': 'rose', 'time_unit': 'h'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '70', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'h'}]
 #########################
 ### original ###
 INCALL ONLY.  Special on SS and hummers 
@@ -1195,7 +1195,7 @@ Jen
 ### extracted ###
 ['hummer 60 rose', 'ss 80 rose', 'half 125 rose', 'hour 200 rose']
 ### normalized ###
-[{'price': '200', 'price_unit': 'rose', 'time_unit': 'hour'}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'hummer'}, {'price': '80', 'price_unit': 'rose', 'time_unit': 'ss'}, {'price': '125', 'price_unit': 'rose', 'time_unit': 'half'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hour'}]
 #########################
 ### original ###
 New to town
@@ -1209,7 +1209,7 @@ No time wasters
 ### extracted ###
 ['100$rose 30min', '200$rose 1hour']
 ### normalized ###
-[{'price': '200', 'price_unit': '$rose', 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': '$rose', 'time_unit': '30min'}, {'price': '200', 'price_unit': '$rose', 'time_unit': '1hour'}]
 #########################
 ### original ###
 Hey I'm candy looking for some fun  
@@ -1220,7 +1220,7 @@ Hh one00 roses hr two0O roses
 ### extracted ###
 ['hh 100 rose', 'hr 200 rose']
 ### normalized ###
-[{'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 No law enforcement
@@ -1233,7 +1233,7 @@ Hh 180 roses
 ### extracted ###
 ['90 rose', 'hh 180 rose']
 ### normalized ###
-[{'price': '90', 'price_unit': 'rose', 'time_unit': None}]
+[{'price': '90', 'price_unit': 'rose', 'time_unit': None}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hh'}]
 #########################
 ### original ###
 30 min- 150 roses, 100 hr- 200 roses, just for one girl. Txt us 3606383309Outcalls Only
@@ -1242,7 +1242,7 @@ Hh 180 roses
 ### extracted ###
 ['30 min 150 rose', '100 hr 200 rose']
 ### normalized ###
-[]
+[{'price': '150', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': '100 hr'}]
 #########################
 ### original ###
 No law enforcement In calls 30 90 roses  Hh 180 roses 8328743763.Call  832-874-3763 .
@@ -1267,7 +1267,7 @@ Call me Malia
 ### extracted ###
 ['60 rose 15min', '100 rose hhr']
 ### normalized ###
-[]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': '15min'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}]
 #########################
 ### original ###
 Hey baby call me 305?7311860 
@@ -1278,7 +1278,7 @@ Hey baby call me 305?7311860
 ### extracted ###
 ['100 rose 30 min', '150 rose full hour']
 ### normalized ###
-[{'price': '150', 'price_unit': 'rose', 'time_unit': 'full hour'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'full hour'}]
 #########################
 ### original ###
 No AA 180 ROSES 200 ROSES YOY GET WHAT YOU SEE  8328743763.Call  832-874-3763 .
@@ -1296,7 +1296,7 @@ In call only. Tall 6'2 black Guy, NO GUYS NO GUYS 5154477834 big room with lots 
 ### extracted ###
 ['50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
 ### normalized ###
-[{'price': '150', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '50', 'price_unit': 'rose', 'time_unit': '15min'}, {'price': '65', 'price_unit': 'rose', 'time_unit': '25min'}, {'price': '80', 'price_unit': 'rose', 'time_unit': '30min'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '45min'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 You'll never know until you try it... Beautifully seductive and flirtatiousmagicalQueen. 5'3 135lbsofchocolateBliss.Outcalls ONLY.100% ALL NATURAL.60 roses/15mins
@@ -1308,7 +1308,7 @@ You'll never know until you try it... Beautifully seductive and flirtatiousmagic
 ### extracted ###
 ['60 rose 15min', '85 rose 30min', '140 rose 45min', '200 rose hr', '35 rose']
 ### normalized ###
-[{'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '35', 'price_unit': 'rose', 'time_unit': None}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': '15min'}, {'price': '85', 'price_unit': 'rose', 'time_unit': '30min'}, {'price': '140', 'price_unit': 'rose', 'time_unit': '45min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '35', 'price_unit': 'rose', 'time_unit': None}]
 #########################
 ### original ###
 Gorgeous flirtatious funsize seductive Queen. 5'3 135lbs of chocolate heaven 
@@ -1325,7 +1325,7 @@ PrivateDances35 roses/3songs
 ### extracted ###
 ['60 rose 15min', '85 rose 30min', '130 rose 45min', '200 rose hr', '35 rose']
 ### normalized ###
-[{'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '35', 'price_unit': 'rose', 'time_unit': None}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': '15min'}, {'price': '85', 'price_unit': 'rose', 'time_unit': '30min'}, {'price': '130', 'price_unit': 'rose', 'time_unit': '45min'}, {'price': '200', 'price_unit': 'rose', 'time_unit': 'hr'}, {'price': '35', 'price_unit': 'rose', 'time_unit': None}]
 #########################
 ### original ###
 In call only. Tall 6'2 black Guy,NO GUYS
@@ -1342,7 +1342,7 @@ big room with lots of space
 ### extracted ###
 ['50 rose 15min', '65 rose 25min', '80 rose 30min', '120 rose 45min', '150 rose hr']
 ### normalized ###
-[{'price': '150', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '50', 'price_unit': 'rose', 'time_unit': '15min'}, {'price': '65', 'price_unit': 'rose', 'time_unit': '25min'}, {'price': '80', 'price_unit': 'rose', 'time_unit': '30min'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '45min'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 100 Roses for 1/2 Hour - 200 Roses for 1 hour - 75 Roses for 20 minutes or less
@@ -1351,7 +1351,7 @@ big room with lots of space
 ### extracted ###
 ['100 rose for half hour', '200 rose for 1 hour', '75 rose for 20 minute']
 ### normalized ###
-[{'price': '200', 'price_unit': 'rose', 'time_unit': 'hour'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'half hour'}, {'price': '200', 'price_unit': 'rose', 'time_unit': '1 hour'}, {'price': '75', 'price_unit': 'rose', 'time_unit': '20 minute'}]
 #########################
 ### original ###
 15 Minutes - 60 Roses 30 Minutes - 100 Roses 1 Hour - 150 Roses Call Me  512-210-0088 512-210-0088 IM WAITING FOR YOUR CALL.Call  512-210-0088 .
@@ -1360,7 +1360,7 @@ big room with lots of space
 ### extracted ###
 ['15 minute 60 rose', '30 minute 100 rose', '1 hour 150 rose']
 ### normalized ###
-[]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': '15 minute'}, {'price': '100', 'price_unit': 'rose', 'time_unit': '30 minute'}, {'price': '150', 'price_unit': 'rose', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 Specials you get what you see
@@ -1389,7 +1389,7 @@ Alaina
 ### extracted ###
 ['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
 ### normalized ###
-[{'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Come spend some time with the one and only Alaina  Qv-60 roses  Hhr-100 roses  Hr-140 roses  9125396969  Alaina.Call  912-539-6969
@@ -1398,7 +1398,7 @@ Come spend some time with the one and only Alaina  Qv-60 roses  Hhr-100 roses  H
 ### extracted ###
 ['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
 ### normalized ###
-[{'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 15 min 75 roses 
@@ -1413,7 +1413,7 @@ Ask for kandy:
 ### extracted ###
 ['15 min 75 rose', '30 min 95 rose', '1 hour 120 rose']
 ### normalized ###
-[]
+[{'price': '75', 'price_unit': 'rose', 'time_unit': '15 min'}, {'price': '95', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '1 hour'}]
 #########################
 ### original ###
 Good morning I'm doing incalls only gentleman I'm quick 60 roses ?Hhr 80 roses ?Hour 120 roses unrushed and f.service provided nonnegotiable donations  614-563-3342
@@ -1422,7 +1422,7 @@ Good morning I'm doing incalls only gentleman I'm quick 60 roses ?Hhr 80 roses ?
 ### extracted ###
 ['60 rose hhr', '80 rose hour', '120 rose']
 ### normalized ###
-[{'price': '80', 'price_unit': 'rose', 'time_unit': 'hour'}, {'price': '120', 'price_unit': 'rose', 'time_unit': None}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '80', 'price_unit': 'rose', 'time_unit': 'hour'}, {'price': '120', 'price_unit': 'rose', 'time_unit': None}]
 #########################
 ### original ###
 I'm slim carmel looking for fun and plesure q.v. 80 roses. Donation half hour 130 roses 1hour 200 roses in calls text only 9048859321
@@ -1431,7 +1431,7 @@ I'm slim carmel looking for fun and plesure q.v. 80 roses. Donation half hour 13
 ### extracted ###
 ['half hour 130 rose', '1hour 200 rose', '80 rose']
 ### normalized ###
-[{'price': '80', 'price_unit': 'rose', 'time_unit': None}]
+[{'price': '130', 'price_unit': 'rose', 'time_unit': 'half hour'}, {'price': '200', 'price_unit': 'rose', 'time_unit': '1hour'}, {'price': '80', 'price_unit': 'rose', 'time_unit': None}]
 #########################
 ### original ###
 Milk Chocolate RemyCOME GET A TASTE4/20 FRIENDLY; Very DISCREET. Special- SS80 ROSES HH120 ROSES HR160 ROSES . AVAILABLE Now Call @202-351-1606
@@ -1440,7 +1440,7 @@ Milk Chocolate RemyCOME GET A TASTE4/20 FRIENDLY; Very DISCREET. Special- SS80 R
 ### extracted ###
 ['ss80 rose', 'hh120 rose', 'hr160 rose']
 ### normalized ###
-[{'price': '160', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'ss'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '160', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 LILLY  Come visit me  Incall  Qv 80 roses  30minutes 120 roses  Hourly 180 roses  Lets meet  OUTCALL  Hourly200  Lilli 909.999.3751 .Call  909-999-3751 .
@@ -1449,7 +1449,7 @@ LILLY  Come visit me  Incall  Qv 80 roses  30minutes 120 roses  Hourly 180 roses
 ### extracted ###
 ['qv 80 rose', '30minute 120 rose', 'hourly 180 rose', 'hourly200']
 ### normalized ###
-[{'price': '180', 'price_unit': 'rose', 'time_unit': 'hourly'}, {'price': '200', 'price_unit': None, 'time_unit': 'hourly'}]
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '120', 'price_unit': 'rose', 'time_unit': '30minute'}, {'price': '180', 'price_unit': 'rose', 'time_unit': 'hourly'}, {'price': '200', 'price_unit': '', 'time_unit': 'hourly'}]
 #########################
 ### original ###
 NO LAW ENFORCEMENT 
@@ -1464,7 +1464,7 @@ Lala
 ### extracted ###
 ['qv 80 rose', 'hh 100 rose', 'hr 160 rose']
 ### normalized ###
-[{'price': '160', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '80', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '160', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Come spend some time with the one and only Alaina Qv-60 roses Hhr-100 roses Hr-140 roses 9125396969 Alaina.Call  912-539-6969 .
@@ -1473,7 +1473,7 @@ Come spend some time with the one and only Alaina Qv-60 roses Hhr-100 roses Hr-1
 ### extracted ###
 ['qv 60 rose', 'hhr 100 rose', 'hr 140 rose']
 ### normalized ###
-[{'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
+[{'price': '60', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '100', 'price_unit': 'rose', 'time_unit': 'hhr'}, {'price': '140', 'price_unit': 'rose', 'time_unit': 'hr'}]
 #########################
 ### original ###
 Lmao 3618763539...roses for daizee.Call  361-876-3539 .
@@ -1491,7 +1491,7 @@ Doing specials TODAY only.  100 roses - qv 150 roses - hh ----- Massage Specials
 ### extracted ###
 ['100 rose qv', '150 rose hh', '70 rose hh', '120 rose h']
 ### normalized ###
-[{'price': '120', 'price_unit': 'rose', 'time_unit': 'h'}]
+[{'price': '100', 'price_unit': 'rose', 'time_unit': 'qv'}, {'price': '150', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '70', 'price_unit': 'rose', 'time_unit': 'hh'}, {'price': '120', 'price_unit': 'rose', 'time_unit': 'h'}]
 #########################
 ### original ###
 Hello ! 
@@ -1512,7 +1512,7 @@ Angelique
 ### extracted ###
 ['30 min 150 rose', '1 hour 250 rose', '2 hour 400 rose', '1000 rose']
 ### normalized ###
-[{'price': '1000', 'price_unit': 'rose', 'time_unit': None}]
+[{'price': '150', 'price_unit': 'rose', 'time_unit': '30 min'}, {'price': '250', 'price_unit': 'rose', 'time_unit': '1 hour'}, {'price': '400', 'price_unit': 'rose', 'time_unit': '2 hour'}, {'price': '1000', 'price_unit': 'rose', 'time_unit': None}]
 #########################
 ### original ###
 Roses. Roses. Roses. Come pick ur fresh roses. Lola is waiting on ur call. 45+ gentlemen safe inbound no texting 7579983087.  We are on Adult Finder  soooo you can find us all on there if you want... sticky_dolce
@@ -1539,7 +1539,7 @@ Donation $150hr $100 $60 qv
 ### extracted ###
 ['$150hr', '$60 qv']
 ### normalized ###
-[{'price': '150', 'price_unit': '$', 'time_unit': 'hr'}]
+[{'price': '150', 'price_unit': '$', 'time_unit': 'hr'}, {'price': '60', 'price_unit': '$', 'time_unit': 'qv'}]
 #########################
 ### original ###
 $#9372451974#$  DONATION RATES: $100  5'9/160lb/36C
@@ -1560,7 +1560,7 @@ $#9372451974#$  DONATION RATES: $100  5'9/160lb/36C
 ### extracted ###
 ['ss40', 'hh60', 'ss50', 'hh80', 'hr140 donation$']
 ### normalized ###
-[{'price': '140', 'price_unit': 'donation$', 'time_unit': 'hr'}]
+[{'price': '40', 'price_unit': '', 'time_unit': 'ss'}, {'price': '60', 'price_unit': '', 'time_unit': 'hh'}, {'price': '50', 'price_unit': '', 'time_unit': 'ss'}, {'price': '80', 'price_unit': '', 'time_unit': 'hh'}, {'price': '140', 'price_unit': 'donation$', 'time_unit': 'hr'}]
 #########################
 ### original ###
 TS Halle 813 422 4735 
@@ -1589,7 +1589,7 @@ Donation 80 outcalls tonight only 5204093657.Call  520-409-3657 .
 ### extracted ###
 ['donation 60hh']
 ### normalized ###
-[]
+[{'price': '60', 'price_unit': 'donation', 'time_unit': 'hh'}]
 #########################
 ### original ###
 ????FiveStarExperience? 
@@ -1602,7 +1602,7 @@ Donation 80 outcalls tonight only 5204093657.Call  520-409-3657 .
 ### extracted ###
 ['15min', '50 20min', '60 hhr', '80 hr']
 ### normalized ###
-[{'price': '80', 'price_unit': None, 'time_unit': 'hr'}]
+[{'price': '15', 'price_unit': '', 'time_unit': 'min'}, {'price': '50', 'price_unit': '', 'time_unit': '20min'}, {'price': '60', 'price_unit': '', 'time_unit': 'hhr'}, {'price': '80', 'price_unit': '', 'time_unit': 'hr'}]
 #########################
 ### original ###
 ##9372048889## 100 Donation Available 24/7.Call  937-204-8889 .
@@ -1649,7 +1649,7 @@ NO BLACK MEN
 ### extracted ###
 ['$300 donation', '130hh', '230h']
 ### normalized ###
-[{'price': '300', 'price_unit': '$', 'time_unit': None}, {'price': '230', 'price_unit': None, 'time_unit': 'h'}]
+[{'price': '300', 'price_unit': '$', 'time_unit': None}, {'price': '130', 'price_unit': '', 'time_unit': 'hh'}, {'price': '230', 'price_unit': '', 'time_unit': 'h'}]
 #########################
 ### original ###
 Young, sweet n fun 23 year old Middle Eastern besuty in Orange! 
@@ -1673,4 +1673,4 @@ Tired of the C*nt games the girls that complain?   well im not leaving until you
 ### extracted ###
 ['$160 hh', '$260 hour', '$280 donation']
 ### normalized ###
-[{'price': '260', 'price_unit': '$', 'time_unit': 'hour'}, {'price': '280', 'price_unit': '$', 'time_unit': None}]
+[{'price': '160', 'price_unit': '$', 'time_unit': 'hh'}, {'price': '260', 'price_unit': '$', 'time_unit': 'hour'}, {'price': '280', 'price_unit': '$', 'time_unit': None}]

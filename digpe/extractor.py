@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:49
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 19:58:46
+# @Last Modified time: 2016-07-05 23:13:37
 
 
 """ Patterns
@@ -97,6 +97,9 @@ class Extractor():
         ans = []
         for text in text_list:
             if Extractor.re_alphabet.findall(text):
+                digits = Extractor.re_digits.findall(text)
+                if len(digits) == 1 and int(digits[0]) < 5:
+                    continue
                 ans.append(text)
         return ans
 
@@ -149,7 +152,13 @@ class Extractor():
 
 
 if __name__ == '__main__':
-    text = 'ilk chocolate remycome get a taste4 20 friendly very discreet special ss80 rose hh120 rose hr160 rose available now call'
+    # text = 'ilk chocolate remycome get a taste4 20 friendly very discreet special ss80 rose hh120 rose hr160 rose available now call'
+    # text = '15min50?20mins60?hhr80?hr120?'
+    # text = '15min50 20mins60 hhr80 hr120'
+    # ['15min', '50 20min', '60 hhr', '80 hr']
+    # ['15min50 ', 'hhr80 ', 'hr120']
+    
+    text = 'good morning i m doing incall only gentleman i m quick 60 rose hhr 80 rose hour 120 rose unrushed and f service provided nonnegotiable donation'
     extractor = Extractor()
     print extractor.extract(text)
 

@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:34
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-04 10:22:09
+# @Last Modified time: 2016-07-05 23:13:15
 
 import re
 import inflection
@@ -147,3 +147,9 @@ class Preprocessor():
         return text
         # return text.split('\n') # future find all instead
 
+if __name__ == '__main__':
+    # text = 'ilk chocolate remycome get a taste4 20 friendly very discreet special ss80 rose hh120 rose hr160 rose available now call'
+    # text = '15min50?20mins60?hhr80?hr120?'
+    text = 'Good morning I\'m doing incalls only gentleman I\'m quick 60 roses ?Hhr 80 roses ?Hour 120 roses unrushed and f.service provided nonnegotiable donations  614-563-3342'
+    preprocessor = Preprocessor()
+    print preprocessor.preprocess(text)
