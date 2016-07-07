@@ -562,11 +562,11 @@
     },
     {
       "text": "$#9373495059#$  DONATION RATES: 120Incall/140Outcall  5'9/160lb/36C",
-      "extraction": [120, 140]
+      "extraction": [{"price": "120", "price_unit": "", "time_unit": ""}, {"price": "140", "price_unit": "", "time_unit": ""}]
     },
     {
       "text": "25 Rose Donation For Qv Hmu ASAP?? \n254-727-2981",
-      "extraction": [25]
+      "extraction": [{"price": "25", "price_unit": "rose", "time_unit": ""}]
     },
     {
       "text": "OUTCALLS ONLY \n\nNo endless texting \n\n2 girl special $300 donation \n\n130hh / 230h donation\n\nNO BLACK MEN \n\n814 4993826",
