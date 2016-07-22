@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 11:29:35
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 23:53:59
+# @Last Modified time: 2016-07-22 17:42:22
 
 from preprocessor import Preprocessor
 from extractor import Extractor
@@ -24,7 +24,9 @@ class DIGPE():
         cleaned_text_list = self.preprocessor.preprocess(text)
         extracted_text_list = self.extractor.extract_from_list(cleaned_text_list)
         normalized_text_list = self.normalizer.normalize_from_list(extracted_text_list)
-        ans = []
+        ans = {}
+        ans.setdefault('price', [])
+        ans.setdefault('price-per-hour', [])
         for normalized in normalized_text_list:
             if not normalized['time_unit']:
                 # ans.append(normalized)
@@ -35,7 +37,11 @@ class DIGPE():
                 if tunit[0].strip() in UNIT_TIME_HOUR:
                     digits = DIGPE.re_digits.findall(normalized['time_unit'])
                     if not digits or int(digits[0]) == 1:
-                        ans.append(normalized)
+                        # ans.append(normalized)
+                        ans['price'].append(normalized['price'])
+
+            ans['price-per-hour'].append(normalized)
+            
         return ans
 
 

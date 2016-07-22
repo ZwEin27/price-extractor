@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 15:05:04
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 23:39:57
+# @Last Modified time: 2016-07-22 17:43:44
 
 
 import sys
@@ -59,7 +59,7 @@ class TestDIGPEMethods(unittest.TestCase):
             else:
                 print '#'*50
                 print '### original ###'
-                print text
+                print text.encode('ascii','ignore')
                 print '### groundtruth data ###'
                 print ext_gt
                 print '### extracted data ###'

@@ -693,7 +693,7 @@
 ### cleaned ###
 [' 5starexperience', '', 'incall donation', '15min50 20mins60 hhr80 hr120', ' lola']
 ### extraction ###
-['15min', '50 20min', '60 hhr', '80 hr']
+['15min50', 'mins60', 'hhr80', 'hr120']
 #########################
 ### cleaned ###
 ['  100 donation available 24 7 call  ']

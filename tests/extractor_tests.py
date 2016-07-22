@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 16:07:00
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 21:39:13
+# @Last Modified time: 2016-07-22 17:38:21
 
 import sys
 import time
@@ -44,8 +44,8 @@ class TestExtractorMethods(unittest.TestCase):
         # text = '1 hour 120 rose \r'
         # text = 'tired of the c nt game the girl that complain well im not leaving until your sleeping in a c m stain incall $160 hh donation $260 hour donation outcall start at $280 donation cat'
         # text = 'young sweet n fun 23 year old middle eastern besuty in orange'
-        # text = '15 min $50'
-        text = '2 hr $250 2 hr male'
+        text = '15 min $50'
+        # text = '2 hr $250 2 hr male'
         print self.extractor.extract(text)
 
         # ['15 min']
@@ -66,8 +66,8 @@ if __name__ == '__main__':
     def run_main_test():
         suite = unittest.TestSuite()
 
-        suite.addTest(TestExtractorMethods('test_extract'))
-        # suite.addTest(TestExtractorMethods('test_extract_text'))
+        # suite.addTest(TestExtractorMethods('test_extract'))
+        suite.addTest(TestExtractorMethods('test_extract_text'))
 
         runner = unittest.TextTestRunner()
         runner.run(suite)

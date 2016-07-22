@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-07-01 13:17:49
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-05 23:13:37
+# @Last Modified time: 2016-07-22 17:37:48
 
 
 """ Patterns
@@ -147,7 +147,7 @@ class Extractor():
 
     def extract_from_list(self, text_list):
         extracted_text_list = [self.extract(cleaned_text) for cleaned_text in text_list]
-        extracted_text = [val.strip() for sublist in extracted_text_list for val in sublist] 
+        extracted_text = [val.strip() for sublist in extracted_text_list for val in sublist]
         return extracted_text
 
 
