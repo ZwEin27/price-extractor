@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 15:05:04
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-22 17:43:44
+# @Last Modified time: 2016-07-22 17:45:50
 
 
 import sys
@@ -69,9 +69,9 @@ class TestDIGPEMethods(unittest.TestCase):
         print 60*'-'
         print 'pass', correct, 'out of', total
             
-            
-
-
+    def test_digpe_text(self):
+        text = 'Good morning I\'m doing incalls only gentleman I\'m quick 60 roses ?Hhr 80 roses ?Hour 120 roses unrushed and f.service provided nonnegotiable donations  614-563-3342'
+        print self.digpe.extract(text)
 
 
 if __name__ == '__main__':
@@ -80,7 +80,8 @@ if __name__ == '__main__':
     def run_main_test():
         suite = unittest.TestSuite()
 
-        suite.addTest(TestDIGPEMethods('test_digpe'))
+        # suite.addTest(TestDIGPEMethods('test_digpe'))
+        suite.addTest(TestDIGPEMethods('test_digpe_text'))
 
         runner = unittest.TextTestRunner()
         runner.run(suite)
