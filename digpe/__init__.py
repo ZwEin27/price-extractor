@@ -2,13 +2,21 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 11:29:35
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-25 20:20:29
+# @Last Modified time: 2016-07-27 14:14:34
 
 from preprocessor import Preprocessor
 from extractor import Extractor
 from normalizer import Normalizer
 from unit import * 
 import re
+
+
+PE_DICT_NAME_PRICE = 'price'
+PE_DICT_NAME_PPH = 'price_per_hour'
+
+PE_JSON_NAME_PRICE = 'price'
+PE_JSON_NAME_PRICE_UNIT = 'price_unit'
+PE_JSON_NAME_TIME_UNIT = 'time_unit'
 
 class DIGPE():
 
@@ -25,22 +33,22 @@ class DIGPE():
         extracted_text_list = self.extractor.extract_from_list(cleaned_text_list)
         normalized_text_list = self.normalizer.normalize_from_list(extracted_text_list)
         ans = {}
-        ans.setdefault('price', [])
-        ans.setdefault('price-per-hour', [])
+        ans.setdefault(PE_DICT_NAME_PRICE, [])
+        ans.setdefault(PE_DICT_NAME_PPH, [])
+        print normalized_text_list
         for normalized in normalized_text_list:
-            if not normalized['time_unit']:
-                # ans.append(normalized)
-                continue
+            if not normalized[PE_JSON_NAME_TIME_UNIT]:
+                ans[PE_DICT_NAME_PPH].append(normalized[PE_JSON_NAME_PRICE])
+            else:
+                tunit = DIGPE.re_alphabet.findall(normalized[PE_JSON_NAME_TIME_UNIT])
+                if tunit and tunit[0].strip() in UNIT_TIME_HOUR:
+                    if tunit[0].strip() in UNIT_TIME_HOUR:
+                        digits = DIGPE.re_digits.findall(normalized[PE_JSON_NAME_TIME_UNIT])
+                        if not digits or int(digits[0]) == 1:
+                            # ans.append(normalized)
+                            ans[PE_DICT_NAME_PPH].append(normalized[PE_JSON_NAME_PRICE])
 
-            tunit = DIGPE.re_alphabet.findall(normalized['time_unit'])
-            if tunit and tunit[0].strip() in UNIT_TIME_HOUR:
-                if tunit[0].strip() in UNIT_TIME_HOUR:
-                    digits = DIGPE.re_digits.findall(normalized['time_unit'])
-                    if not digits or int(digits[0]) == 1:
-                        # ans.append(normalized)
-                        ans['price'].append(normalized['price'])
-
-            ans['price-per-hour'].append(normalized)
+            ans[PE_DICT_NAME_PRICE].append(normalized)
         return ans
 
 
