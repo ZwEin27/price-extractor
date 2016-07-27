@@ -2,7 +2,7 @@
 # @Author: ZwEin
 # @Date:   2016-06-30 11:29:35
 # @Last Modified by:   ZwEin
-# @Last Modified time: 2016-07-27 14:14:34
+# @Last Modified time: 2016-07-27 14:19:45
 
 from preprocessor import Preprocessor
 from extractor import Extractor
@@ -35,7 +35,6 @@ class DIGPE():
         ans = {}
         ans.setdefault(PE_DICT_NAME_PRICE, [])
         ans.setdefault(PE_DICT_NAME_PPH, [])
-        print normalized_text_list
         for normalized in normalized_text_list:
             if not normalized[PE_JSON_NAME_TIME_UNIT]:
                 ans[PE_DICT_NAME_PPH].append(normalized[PE_JSON_NAME_PRICE])
